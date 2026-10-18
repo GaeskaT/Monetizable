@@ -12,7 +12,7 @@
 | Visibility | Invisible / hidden until the batch is approved for release |
 | Cover | `assets/listing/Sermon-Kit-5-Cover.png` (1600×900) |
 | Download file | `Preach-the-Forgotten-Sermon-Kit-5-Jael.zip` (3.8 MB, 19 files) |
-| ZIP SHA-256 | `3df32d6f04377cb18beb3537c52043e35905c9c22106574dd97819f71d0f2231` |
+| ZIP SHA-256 | `9111a3e1dcf1ec7a4ac9210ec069243a89f9b7efffe07a54009e206e8684cdc9` |
 | SKU | PF-SK-005 (not exposed in Payhip's product form) |
 | Product ID | `mA7Pk` |
 | Product URL | https://payhip.com/b/mA7Pk |
@@ -27,6 +27,7 @@
 - Signed-out request to the product URL with a browser user agent returns **302 → https://payhip.com/silencedsaints**; the product page is not served.
 - Signed-out store page (`https://payhip.com/silencedsaints`) has no card or link for `mA7Pk`; the earlier kit listings are also absent.
 - Checkout was not completed and no payment details were entered.
+- 2026-10-19 masthead fix: every outline and guide PDF now prints its own kit number; the shared template had "Sermon Kit 1" hardcoded. The one-pagers and ZIP were rebuilt and re-uploaded. Payhip now serves the rebuilt ZIP (`3,934,794` bytes, file ID `6zY3pQK1Gq`). Manuscript, DOCX, PPTX, PNG slides, license, and Start Here are byte-identical.
 
 ## Card copy
 

@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The One-Verse Deliverer — One-page preaching outline</title>
+<style>
+@page {
+  size: Letter;
+  margin: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: #ffffff;
+}
+
+body {
+  font-family: Candara, "Segoe UI", sans-serif;
+  color: #2b2721;
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
+}
+
+.page {
+  width: 8.5in;
+  min-height: 11in;
+  padding: 0.38in 0.5in 0.4in;
+  display: flex;
+  flex-direction: column;
+}
+
+/* ---------- Masthead ---------- */
+
+.masthead {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 18pt;
+  padding-bottom: 4pt;
+  border-bottom: 0.7pt solid #c8a15e;
+}
+
+.brand {
+  font-size: 7.2pt;
+  font-weight: bold;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: #8a6a2f;
+}
+
+.series {
+  font-size: 6.7pt;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #1b2a44;
+  text-align: right;
+}
+
+/* ---------- Heading ---------- */
+
+.heading {
+  margin-top: 9pt;
+}
+
+.kicker {
+  margin: 0 0 3pt;
+  font-size: 6.8pt;
+  font-weight: bold;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: #8a6a2f;
+}
+
+h1 {
+  margin: 0;
+  font-family: Georgia, serif;
+  font-size: 22pt;
+  font-weight: normal;
+  line-height: 1.05;
+  letter-spacing: -0.005em;
+  color: #1b2a44;
+}
+
+.subtitle {
+  margin: 2.5pt 0 0;
+  font-family: Georgia, serif;
+  font-size: 9.8pt;
+  font-style: italic;
+  line-height: 1.25;
+  color: #6a5836;
+}
+
+/* ---------- Meta ---------- */
+
+.meta {
+  margin-top: 7pt;
+  padding: 6pt 9pt;
+  background: #faf6ec;
+  border-left: 2.4pt solid #c8a15e;
+}
+
+.meta p {
+  margin: 0 0 2.5pt;
+  font-size: 8pt;
+  line-height: 1.38;
+  color: #4f483d;
+}
+
+.meta p:last-child {
+  margin-bottom: 0;
+}
+
+.meta strong {
+  font-weight: bold;
+  color: #1b2a44;
+}
+
+/* ---------- Body ---------- */
+
+main.content {
+  margin-top: 7pt;
+}
+
+h2 {
+  margin: 8pt 0 3.5pt;
+  padding-bottom: 2pt;
+  border-bottom: 0.5pt solid #d9c9a8;
+  font-family: Candara, "Segoe UI", sans-serif;
+  font-size: 7.3pt;
+  font-weight: bold;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #1b2a44;
+}
+
+main.content > h2:first-child {
+  margin-top: 0;
+}
+
+p {
+  margin: 0 0 4pt;
+  font-size: 8.7pt;
+  line-height: 1.37;
+}
+
+main.content > p:last-child {
+  margin-bottom: 0;
+}
+
+ul,
+ol {
+  margin: 2pt 0 5pt;
+  padding-left: 14pt;
+}
+
+li {
+  margin: 0 0 2.4pt;
+  font-size: 8.7pt;
+  line-height: 1.34;
+}
+
+li:last-child {
+  margin-bottom: 0;
+}
+
+li strong {
+  color: #1b2a44;
+}
+
+strong {
+  font-weight: bold;
+}
+
+em {
+  font-style: italic;
+}
+
+/* ---------- Outline table ---------- */
+
+table {
+  width: 100%;
+  margin: 2pt 0 4pt;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+
+thead th {
+  padding: 2pt 5pt 2.5pt 0;
+  border-bottom: 0.6pt solid #c8a15e;
+  font-size: 6.5pt;
+  font-weight: bold;
+  letter-spacing: 0.12em;
+  text-align: left;
+  text-transform: uppercase;
+  color: #1b2a44;
+}
+
+tbody td {
+  padding: 3pt 5pt 3pt 0;
+  border-bottom: 0.4pt solid #e6dcc8;
+  font-size: 7.95pt;
+  line-height: 1.3;
+  vertical-align: top;
+  color: #3a342b;
+}
+
+tbody td:first-child {
+  font-weight: bold;
+  color: #8a6a2f;
+}
+
+tbody tr:last-child td {
+  border-bottom: none;
+}
+
+/* ---------- Footer ---------- */
+
+.footer {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 18pt;
+  margin-top: auto;
+  padding-top: 4pt;
+  border-top: 0.5pt solid #d9c9a8;
+  font-size: 6.5pt;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #8a6a2f;
+}
+
+.footer .navy {
+  color: #1b2a44;
+  text-align: right;
+}
+
+</style>
+</head>
+<body>
+<div class="page">
+  <header class="masthead">
+    <span class="brand">Silenced Saints</span>
+    <span class="series">PREACH THE FORGOTTEN · SERMON KIT 6</span>
+  </header>
+
+  <section class="heading">
+    <p class="kicker">One-page preaching outline</p>
+    <h1>The One-Verse Deliverer</h1>
+    <p class="subtitle">Shamgar · Judges 3:31</p>
+  </section>
+
+  <div class="meta">
+<p><strong>Primary text:</strong> Judges 3:31
+<strong>Also read:</strong> Judges 5:6–8 · 1 Samuel 13:19–22 · Hebrews 11:32 · Philippians 2:5–11
+<strong>Big idea:</strong> The size of your mention is not the size of your work: God saved Israel through a farmer with an oxgoad, and Jesus is the greater Deliverer whose name is above every name.
+<strong>Time:</strong> 55–60 minutes, including a 3–5 minute response (6,722 words at about 120 wpm).
+<strong>Aim:</strong> From measuring our lives by mentions to trusting the God who counts what the record skips; from waiting for a sword to using the goad in our hand.</p>
+  </div>
+
+  <main class="content">
+<h2>Movement map</h2>
+<table><colgroup><col style="width:0.42in"><col style="width:1.38in"><col style="width:5.6in"></colgroup>
+<thead>
+<tr>
+<th>Min</th>
+<th>Section</th>
+<th>Beats and transition</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>5</td>
+<td><strong>Introduction: The shortest story</strong></td>
+<td>Shamgar gets one sentence: name, father, enemy, number, tool, verdict. No birth, call, speech, or tomb. The world measures by mentions; God measures by deliverance. Big idea. → <em>“Let us read the one verse.”</em></td>
+</tr>
+<tr>
+<td>7</td>
+<td><strong>The roads went quiet</strong></td>
+<td>Deborah’s song: highways abandoned, travelers on byways, villages ceased, no shield or spear among forty thousand. Philistine iron and the disarmed hill country (1 Sam 13:19–20). New gods chosen; war in the gates. Yet the LORD raises up judges (Judg 2:16). → <em>“Into this world came a farmer with a stick.”</em></td>
+</tr>
+<tr>
+<td>7</td>
+<td><strong>The man from the edge</strong></td>
+<td>Shamgar son of Anath: uncertain name, possible Canaanite resonance, Beth-Anath, Ben-Anath. God keeps choosing the wrong people: Ehud, Deborah, Gideon, Jephthah, Samson. “After him” — no call scene, no Spirit formula, no speech. The deed, not the biography. The chain of deliverance. → <em>“What was in his hand?”</em></td>
+</tr>
+<tr>
+<td>8</td>
+<td><strong>The tool in his hand</strong></td>
+<td><em>Malmad habbaqar</em>: an eight-foot hardwood pole, iron point and chisel, used daily to drive and clean the plow. A pike with a work history. No sword because Israel was disarmed. God uses staffs, slings, jars, loaves, towels. The goad as an instrument of training (Acts 26:14) and a picture of the Word (Heb 4:12). → <em>“The tool is not the hero.”</em></td>
+</tr>
+<tr>
+<td>8</td>
+<td><strong>Six hundred and one</strong></td>
+<td>Six hundred Philistines: a column, not a duel. The text gives a summary, not tactics; a campaign is possible. Philistine setting: Medinet Habu, Ashdod, Tel Qasile, Egyptian goads. “He also saved Israel” — <em>yasha</em>, the verb of Joshua/Jesus. The verse never names God; the book does. The verdict stands. → <em>“The one-verse deliverer points forward.”</em></td>
+</tr>
+<tr>
+<td>8</td>
+<td><strong>The Name above every name</strong></td>
+<td><em>Yasha</em> → Yeshua → Jesus (Matt 1:21). Shamgar kills the enemy; Jesus dies for the enemy. Peter’s sword refused (Matt 26:52); the spear, the nails, the cross (Isa 53:5; John 19:34). “He saved others; he cannot save himself” (Matt 27:42) — the taunt is the truth. Resurrection. Philippians 2:9–11. Hebrews 11:32 omits Shamgar; the list is selective, heaven’s ledger is not. → <em>“Come to the greater Deliverer.”</em></td>
+</tr>
+<tr>
+<td>6</td>
+<td><strong>Application: What do you do with one verse?</strong></td>
+<td>Work the field you were given. Use the tool in your hand. Refuse the comparison of mentions. Trust the God who counts what the record skips. → <em>“The field is the platform.”</em></td>
+</tr>
+<tr>
+<td>3</td>
+<td><strong>The invitation</strong></td>
+<td>Three people: the invisible, the one waiting for a weapon, the one fighting the wrong war. Come to the One with nails in His hands. → <em>“His name is Jesus. He saves.”</em></td>
+</tr>
+<tr>
+<td>5</td>
+<td><strong>Response and closing</strong></td>
+<td>Silence. Three questions: the field, the tool, the sword you are waiting for. One hidden act of faithfulness this week. Care note for victims of violence (Rom 12:19). Prayer. One sentence. One Savior. → <em>“Go and work the field He has given you.”</em></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Total:</strong> 57 minutes; 55–60 with normal variation.</p>
+<h2>Lines to land</h2>
+<ul>
+<li>“The size of your mention is not the size of your work.”</li>
+<li>“Was shield or spear to be seen among forty thousand in Israel?”</li>
+<li>“He also saved Israel.”</li>
+<li>“Shamgar picked up the goad. Jesus took the nails.”</li>
+<li>“One sentence. One Savior. The record is short; the salvation is full.”</li>
+</ul>
+<h2>Guardrails</h2>
+<ul>
+<li>Do not pad the story. The brevity is the point; do not invent a backstory or battle scene.</li>
+<li>Do not glamorize violence or model private revenge. He is God’s instrument against an oppressor (Rom 12:19).</li>
+<li>Say plainly that Hebrews 11:32 does not list Shamgar. The omission is about the list, not his salvation.</li>
+<li>The gospel must be explicit: the cross, the resurrection, and the name above every name. Do not end on “be faithful” without the Savior.</li>
+</ul>
+<h2>If you must cut</h2>
+<ul>
+<li><strong>To 50 minutes:</strong> Introduction 4, Movement 1 6, Movement 2 6, Movement 3 7, Movement 4 7, Movement 5 7, Application 5. Keep Judges 5:6–8, the goad, “he also saved Israel,” Matthew 27:42, and Philippians 2:9–11.</li>
+</ul>
+  </main>
+
+  <footer class="footer">
+    <span>Preach the Forgotten · Sermon Kit 6</span>
+    <span class="navy">One-page outline · Shamgar</span>
+  </footer>
+</div>
+</body>
+</html>

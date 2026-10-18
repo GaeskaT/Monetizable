@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>What the Room Called Waste — Small-group guide</title>
+<style>
+@page {
+  size: Letter;
+  margin: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: #ffffff;
+}
+
+body {
+  font-family: Candara, "Segoe UI", sans-serif;
+  color: #2b2721;
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
+}
+
+.page {
+  width: 8.5in;
+  min-height: 11in;
+  padding: 0.38in 0.5in 0.4in;
+  display: flex;
+  flex-direction: column;
+}
+
+/* ---------- Masthead ---------- */
+
+.masthead {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 18pt;
+  padding-bottom: 4pt;
+  border-bottom: 0.7pt solid #c8a15e;
+}
+
+.brand {
+  font-size: 7.2pt;
+  font-weight: bold;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: #8a6a2f;
+}
+
+.series {
+  font-size: 6.7pt;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #1b2a44;
+  text-align: right;
+}
+
+/* ---------- Heading ---------- */
+
+.heading {
+  margin-top: 9pt;
+}
+
+.kicker {
+  margin: 0 0 3pt;
+  font-size: 6.8pt;
+  font-weight: bold;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: #8a6a2f;
+}
+
+h1 {
+  margin: 0;
+  font-family: Georgia, serif;
+  font-size: 22pt;
+  font-weight: normal;
+  line-height: 1.05;
+  letter-spacing: -0.005em;
+  color: #1b2a44;
+}
+
+.subtitle {
+  margin: 2.5pt 0 0;
+  font-family: Georgia, serif;
+  font-size: 9.8pt;
+  font-style: italic;
+  line-height: 1.25;
+  color: #6a5836;
+}
+
+/* ---------- Meta ---------- */
+
+.meta {
+  margin-top: 7pt;
+  padding: 6pt 9pt;
+  background: #faf6ec;
+  border-left: 2.4pt solid #c8a15e;
+}
+
+.meta p {
+  margin: 0 0 2.5pt;
+  font-size: 8pt;
+  line-height: 1.38;
+  color: #4f483d;
+}
+
+.meta p:last-child {
+  margin-bottom: 0;
+}
+
+.meta strong {
+  font-weight: bold;
+  color: #1b2a44;
+}
+
+/* ---------- Body ---------- */
+
+main.content {
+  margin-top: 7pt;
+}
+
+h2 {
+  margin: 8pt 0 3.5pt;
+  padding-bottom: 2pt;
+  border-bottom: 0.5pt solid #d9c9a8;
+  font-family: Candara, "Segoe UI", sans-serif;
+  font-size: 7.3pt;
+  font-weight: bold;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #1b2a44;
+}
+
+main.content > h2:first-child {
+  margin-top: 0;
+}
+
+p {
+  margin: 0 0 4pt;
+  font-size: 8.7pt;
+  line-height: 1.37;
+}
+
+main.content > p:last-child {
+  margin-bottom: 0;
+}
+
+ul,
+ol {
+  margin: 2pt 0 5pt;
+  padding-left: 14pt;
+}
+
+li {
+  margin: 0 0 2.4pt;
+  font-size: 8.7pt;
+  line-height: 1.34;
+}
+
+li:last-child {
+  margin-bottom: 0;
+}
+
+li strong {
+  color: #1b2a44;
+}
+
+strong {
+  font-weight: bold;
+}
+
+em {
+  font-style: italic;
+}
+
+/* ---------- Outline table ---------- */
+
+table {
+  width: 100%;
+  margin: 2pt 0 4pt;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+
+thead th {
+  padding: 2pt 5pt 2.5pt 0;
+  border-bottom: 0.6pt solid #c8a15e;
+  font-size: 6.5pt;
+  font-weight: bold;
+  letter-spacing: 0.12em;
+  text-align: left;
+  text-transform: uppercase;
+  color: #1b2a44;
+}
+
+tbody td {
+  padding: 3pt 5pt 3pt 0;
+  border-bottom: 0.4pt solid #e6dcc8;
+  font-size: 7.95pt;
+  line-height: 1.3;
+  vertical-align: top;
+  color: #3a342b;
+}
+
+tbody td:first-child {
+  font-weight: bold;
+  color: #8a6a2f;
+}
+
+tbody tr:last-child td {
+  border-bottom: none;
+}
+
+/* ---------- Footer ---------- */
+
+.footer {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 18pt;
+  margin-top: auto;
+  padding-top: 4pt;
+  border-top: 0.5pt solid #d9c9a8;
+  font-size: 6.5pt;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #8a6a2f;
+}
+
+.footer .navy {
+  color: #1b2a44;
+  text-align: right;
+}
+
+</style>
+</head>
+<body>
+<div class="page">
+  <header class="masthead">
+    <span class="brand">Silenced Saints</span>
+    <span class="series">PREACH THE FORGOTTEN · SERMON KIT 1</span>
+  </header>
+
+  <section class="heading">
+    <p class="kicker">Small-group guide</p>
+    <h1>What the Room Called Waste</h1>
+    <p class="subtitle">Mary of Bethany · John 12:1–8</p>
+  </section>
+
+  <div class="meta">
+<p><strong>Text:</strong> John 12:1–8 (with Mark 14:3–9; Matthew 26:6–13; Luke 10:38–42; John 11:1–44)
+<strong>Big idea:</strong> Love that has understood the cross stops calculating what devotion is worth.
+<strong>Time:</strong> 60–75 minutes</p>
+<p><strong>Before you meet.</strong> Ask someone to read John 12:1–8 aloud. Have Mark 14:3–9, Luke 10:38–42, John 11:32–35, and Deuteronomy 15:11 marked. The goal is not to cover every question but to see Mary’s act, hear Jesus’ verdict, and name your own jar.</p>
+  </div>
+
+  <main class="content">
+<h2>Open (5 minutes)</h2>
+<p>Pray. Read John 12:1–8 aloud. Ask: “What is one detail in this scene you can see, smell, or hear?” Let a few answers land.</p>
+<h2>Observe (15 minutes)</h2>
+<ol>
+<li><strong>Who is in the room?</strong> The accounts name Simon the leper (Mark 14:3), Lazarus, Martha, Mary, Judas, and Jesus. What does each person do in the scene, and what does their presence reveal about Jesus?</li>
+<li><strong>Two accounts.</strong> Compare Mark 14:3–9 with John 12:1–8. What does each writer emphasize — the head or the feet, the cost, the objection, the motive? What stays the same?</li>
+</ol>
+
+<h2>Interpret (20 minutes)</h2>
+<ol start="3">
+<li><strong>The pattern at his feet.</strong> Mary sat at Jesus’ feet (Luke 10:38–42), fell at his feet in grief (John 11:32–35), and anointed his feet (John 12:3). What does this pattern reveal about how devotion grows? Where are you in that pattern right now?</li>
+<li><strong>The burial.</strong> Jesus says she anointed his body beforehand for burial (Mark 14:8). Why does that interpretation matter? What did Mary understand that the room did not — and what does the text leave unsaid?</li>
+<li><strong>The objection.</strong> Judas asks, “Why was this ointment not sold for three hundred denarii and given to the poor?” (John 12:5). Read Deuteronomy 15:11. How do we hold costly worship and care for the poor together without using either one as an excuse to avoid the other?</li>
+</ol>
+
+<h2>Apply (20 minutes)</h2>
+<ol start="6">
+<li><strong>Name the jar.</strong> “The jar is the thing you have sealed because you are afraid of what will happen if it breaks.” What is your jar? You do not have to share the details; name it to God.</li>
+<li><strong>Stop auditing.</strong> Where are you tempted to audit someone else’s devotion — in your family, church, or group? What might that auditing protect you from facing in yourself?</li>
+<li><strong>One uncalculated act.</strong> What is one thing you will do this week that only makes sense if Jesus is who he says he is? Name a time, a place, or a person.</li>
+</ol>
+
+<h2>Close (5 minutes)</h2>
+<p>Return to question 8. Write down the act you named and ask God for courage this week. No one has to report it.</p>
+<p>Pray: “Lord Jesus, you saw what Mary understood and defended her when the room called it waste. Give us the courage to love you without calculating, the honesty to name our jar, and the grace to stay at your feet. Amen.”</p>
+<p>Remind them: the invitation is not “try harder.” It is “come closer.”</p>
+<h2>Leader notes</h2>
+<ul>
+<li><strong>Not a money talk.</strong> Keep the focus on Mary’s act and Jesus’ verdict, not other people’s giving. If someone says, “I could never do that,” agree: her act was unique. The application is “stop calculating,” not “sell everything.”</li>
+<li><strong>The poor.</strong> Read Deuteronomy 15:11 aloud. Jesus quotes a command to generosity, not a dismissal. Hold both halves; do not let the group choose one.</li>
+<li><strong>Judas.</strong> Do not cartoon him. His question is real, and sincere people ask it. John names the motive; let the group feel the difference between the question and the man.</li>
+<li><strong>Who this Mary is.</strong> This is Mary of Bethany, Martha’s sister — not Mary Magdalene, and not the sinful woman in Luke 7. If the group conflates them, gently distinguish. Do not overstate her foresight: the text does not say how much she understood, only that Jesus interpreted her act as a burial anointing.</li>
+<li><strong>Grief and safety.</strong> Mary’s act follows the tomb. Some may be grieving; allow silence and do not force sharing. Use “I” language, and do not name people in the room. “Jesus wept” is permission.</li>
+<li><strong>The gospel.</strong> We are not defended by our own defense. Jesus speaks for Mary, goes to the cross for the people who called it waste, and rose from the dead. End with “come closer,” not “do more.”</li>
+</ul>
+  </main>
+
+  <footer class="footer">
+    <span>Preach the Forgotten · Sermon Kit 1</span>
+    <span class="navy">Small-group guide · Mary of Bethany</span>
+  </footer>
+</div>
+</body>
+</html>

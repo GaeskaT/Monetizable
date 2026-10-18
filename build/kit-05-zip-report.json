@@ -2,9 +2,9 @@
   "folder": "Preach-the-Forgotten-Sermon-Kit-5-Jael",
   "zip_root": "C:\\Users\\NDUYU\\Documents\\Qoder\\2026-10-18\\59c534e6\\Preach-the-Forgotten-Sermon-Kit-5-Jael.zip",
   "zip_delivery": "C:\\Users\\NDUYU\\Documents\\Qoder\\2026-10-18\\59c534e6\\delivery\\Preach-the-Forgotten-Sermon-Kit-5-Jael.zip",
-  "zip_bytes": 3934812,
+  "zip_bytes": 3934794,
   "zip_kb": 3842.6,
-  "zip_sha256": "3df32d6f04377cb18beb3537c52043e35905c9c22106574dd97819f71d0f2231",
+  "zip_sha256": "9111a3e1dcf1ec7a4ac9210ec069243a89f9b7efffe07a54009e206e8684cdc9",
   "file_count": 19,
   "entries": 20,
   "files": {
@@ -32,8 +32,8 @@
       "paragraphs": 153
     },
     "02-One-Page-Outline.pdf": {
-      "bytes": 100177,
-      "sha256": "93b67e9a67291f7530e5731413c8e0dc80e6ad570b685f564a9af962425b34b0",
+      "bytes": 100176,
+      "sha256": "f1ecb5757dee123f7a64e5f9d7d5066d0a99dc996a024c441a3985ec82aeeb01",
       "pages": 1,
       "page_size": [
         612,
@@ -41,8 +41,8 @@
       ]
     },
     "03-Small-Group-Guide.pdf": {
-      "bytes": 71886,
-      "sha256": "11a44ebc792c5e1ded5e6874a6d975d69c4fef715b85362db77da98d99df3c89",
+      "bytes": 71884,
+      "sha256": "3d56003b9c636e1c47d2581ef7890f75d2d4ecd7fdac6859de65c701c7ea4845",
       "pages": 1,
       "page_size": [
         612,

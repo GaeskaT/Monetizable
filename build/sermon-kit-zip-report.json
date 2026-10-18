@@ -1,0 +1,170 @@
+{
+  "folder": "Preach-the-Forgotten-Sermon-Kit-1-Mary-of-Bethany",
+  "zip_root": "C:\\Users\\NDUYU\\Documents\\Qoder\\2026-10-18\\59c534e6\\Preach-the-Forgotten-Sermon-Kit-1-Mary-of-Bethany.zip",
+  "zip_delivery": "C:\\Users\\NDUYU\\Documents\\Qoder\\2026-10-18\\59c534e6\\delivery\\Preach-the-Forgotten-Sermon-Kit-1-Mary-of-Bethany.zip",
+  "zip_bytes": 6359003,
+  "zip_kb": 6210.0,
+  "zip_sha256": "428496a31318174d21eaf85e6a90da4b8614ace408bbdf0ce82c304edd8be1b0",
+  "file_count": 19,
+  "entries": 20,
+  "files": {
+    "00-START-HERE.pdf": {
+      "bytes": 97626,
+      "sha256": "d4eb94696a277dc2879fc8a0cca585cbc976bfb00fcef04b66e5c30a3f22e3e6",
+      "pages": 1,
+      "page_size": [
+        612,
+        792
+      ]
+    },
+    "01-Preaching-Manuscript.pdf": {
+      "bytes": 642866,
+      "sha256": "00edf8e3b6c1b193e899d222f3b686735e61e9e7bd4200b8265aaf65ee0dedbf",
+      "pages": 19,
+      "page_size": [
+        612,
+        792
+      ]
+    },
+    "01-Preaching-Manuscript.docx": {
+      "bytes": 53627,
+      "sha256": "ea92df1d077701ec1c7431ad7f49e5e2965e0d352f8a49bbe89d6eedda693749",
+      "paragraphs": 252
+    },
+    "02-One-Page-Outline.pdf": {
+      "bytes": 102267,
+      "sha256": "3b5b47ed33cc9a289140d18693c63697a9bdf7501a0d5cf309b511bd508a0c36",
+      "pages": 1,
+      "page_size": [
+        612,
+        792
+      ]
+    },
+    "03-Small-Group-Guide.pdf": {
+      "bytes": 73561,
+      "sha256": "91fa1a34a5431f9526a502431f4f3722924341985bdf8f30be1cbccbe9920b5c",
+      "pages": 1,
+      "page_size": [
+        612,
+        792
+      ]
+    },
+    "04-Slides-What-the-Room-Called-Waste.pptx": {
+      "bytes": 3376874,
+      "sha256": "5f0ac95510ce323ffcff351d4625d11a93f6c901ea1e41d07453a3769c8f25ba",
+      "slides": 12,
+      "slide_size_px": [
+        1280,
+        720
+      ]
+    },
+    "06-Preaching-License.pdf": {
+      "bytes": 95197,
+      "sha256": "21083e1ce534715b65a3d44c8f8e26c186c47ee2b9a2f6035b16532b3c2235a8",
+      "pages": 1,
+      "page_size": [
+        612,
+        792
+      ]
+    },
+    "slide-01.png": {
+      "bytes": 971122,
+      "size_px": [
+        1280,
+        720
+      ]
+    },
+    "slide-02.png": {
+      "bytes": 18125,
+      "size_px": [
+        1280,
+        720
+      ]
+    },
+    "slide-03.png": {
+      "bytes": 21935,
+      "size_px": [
+        1280,
+        720
+      ]
+    },
+    "slide-04.png": {
+      "bytes": 20616,
+      "size_px": [
+        1280,
+        720
+      ]
+    },
+    "slide-05.png": {
+      "bytes": 39536,
+      "size_px": [
+        1280,
+        720
+      ]
+    },
+    "slide-06.png": {
+      "bytes": 41896,
+      "size_px": [
+        1280,
+        720
+      ]
+    },
+    "slide-07.png": {
+      "bytes": 16643,
+      "size_px": [
+        1280,
+        720
+      ]
+    },
+    "slide-08.png": {
+      "bytes": 23869,
+      "size_px": [
+        1280,
+        720
+      ]
+    },
+    "slide-09.png": {
+      "bytes": 16280,
+      "size_px": [
+        1280,
+        720
+      ]
+    },
+    "slide-10.png": {
+      "bytes": 21876,
+      "size_px": [
+        1280,
+        720
+      ]
+    },
+    "slide-11.png": {
+      "bytes": 20310,
+      "size_px": [
+        1280,
+        720
+      ]
+    },
+    "slide-12.png": {
+      "bytes": 895622,
+      "size_px": [
+        1280,
+        720
+      ]
+    }
+  },
+  "checks": {
+    "crc": true,
+    "entry_order": true,
+    "folder_structure": true,
+    "file_count": true,
+    "pdf_pages_and_size": true,
+    "pdf_text": true,
+    "docx_readable": true,
+    "pptx_12_slides": true,
+    "png_1280x720": true,
+    "no_placeholders": true,
+    "no_replacement_chars": true,
+    "root_delivery_match": true
+  },
+  "status": "passed"
+}

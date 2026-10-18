@@ -12,7 +12,7 @@
 | Visibility | Invisible / hidden until the batch is approved for release |
 | Cover | `assets/listing/Sermon-Kit-4-Cover.png` (1600×900) |
 | Download file | `Preach-the-Forgotten-Sermon-Kit-4-Samson.zip` (3.8 MB, 19 files) |
-| ZIP SHA-256 | `864aa29263bd34c3e4f6077d54c70a2e85308a58f8313ef4dd88d63dbf042fee` |
+| ZIP SHA-256 | `0ecc538a6824659195df153f76f9f3633e2c2a5ef64e013a86948e1868432d05` |
 | SKU | PF-SK-004 (not exposed in Payhip's product form) |
 | Product ID | `cmfVX` |
 | Product URL | https://payhip.com/b/cmfVX |
@@ -27,6 +27,7 @@
 - Signed-out store page (`https://payhip.com/silencedsaints`) has no card or link for `cmfVX`; the earlier kit listings are also absent.
 - Checkout was not completed and no payment details were entered.
 - 2026-10-19 deck polish: the gold cross on slide 8 moved to the lower-right corner of the banner so it no longer crosses the verse text. The PPTX, 12 slide PNGs, and ZIP were rebuilt; Payhip now serves the corrected ZIP (`4,021,856` bytes, file ID `1zw8j8PrBL`). All other slides are byte-identical.
+- 2026-10-19 masthead fix: every outline and guide PDF now prints its own kit number; the shared template had "Sermon Kit 1" hardcoded. The one-pagers and ZIP were rebuilt and re-uploaded. Payhip now serves the rebuilt ZIP (`4,021,844` bytes, file ID `yz49aV49Bp`); the deck-polish file ID is superseded. Manuscript, DOCX, PPTX, PNG slides, license, and Start Here are byte-identical.
 
 ## Card copy
 

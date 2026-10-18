@@ -2,9 +2,9 @@
   "folder": "Preach-the-Forgotten-Sermon-Kit-4-Samson",
   "zip_root": "C:\\Users\\NDUYU\\Documents\\Qoder\\2026-10-18\\59c534e6\\Preach-the-Forgotten-Sermon-Kit-4-Samson.zip",
   "zip_delivery": "C:\\Users\\NDUYU\\Documents\\Qoder\\2026-10-18\\59c534e6\\delivery\\Preach-the-Forgotten-Sermon-Kit-4-Samson.zip",
-  "zip_bytes": 4021856,
+  "zip_bytes": 4021844,
   "zip_kb": 3927.6,
-  "zip_sha256": "864aa29263bd34c3e4f6077d54c70a2e85308a58f8313ef4dd88d63dbf042fee",
+  "zip_sha256": "0ecc538a6824659195df153f76f9f3633e2c2a5ef64e013a86948e1868432d05",
   "file_count": 19,
   "entries": 20,
   "files": {
@@ -33,7 +33,7 @@
     },
     "02-One-Page-Outline.pdf": {
       "bytes": 102406,
-      "sha256": "8046fc48c10da0606b27286e97f30c3a8a7f2575da8410a9ed44959f2b2a529e",
+      "sha256": "1c5ad12a5b78ad45a2a5944903a56eac94fb4a9d1d70cc77d6b0f31889252f77",
       "pages": 1,
       "page_size": [
         612,
@@ -41,8 +41,8 @@
       ]
     },
     "03-Small-Group-Guide.pdf": {
-      "bytes": 75163,
-      "sha256": "3ea68c330c96afdf15dc1e31a47b8ca43b38a01a66483f3fe41ec5ac8a8e987c",
+      "bytes": 75161,
+      "sha256": "a4217e82baccba1d8fcaa6177f5ae2fc84f5abe0e916e928379e111b5812a060",
       "pages": 1,
       "page_size": [
         612,

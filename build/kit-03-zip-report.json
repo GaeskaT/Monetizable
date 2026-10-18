@@ -2,9 +2,9 @@
   "folder": "Preach-the-Forgotten-Sermon-Kit-3-Belshazzar",
   "zip_root": "C:\\Users\\NDUYU\\Documents\\Qoder\\2026-10-18\\59c534e6\\Preach-the-Forgotten-Sermon-Kit-3-Belshazzar.zip",
   "zip_delivery": "C:\\Users\\NDUYU\\Documents\\Qoder\\2026-10-18\\59c534e6\\delivery\\Preach-the-Forgotten-Sermon-Kit-3-Belshazzar.zip",
-  "zip_bytes": 4359057,
+  "zip_bytes": 4359061,
   "zip_kb": 4256.9,
-  "zip_sha256": "91c0fef8c213ea0357c84b8a1c97ac1ded04ce6f7d06c2a78c5298bc8a2f0df1",
+  "zip_sha256": "83dcd2a1c7402cff7fcaa46fa0187df3504be4efa31e5081342cbdddcd45ec36",
   "file_count": 19,
   "entries": 20,
   "files": {
@@ -32,8 +32,8 @@
       "paragraphs": 210
     },
     "02-One-Page-Outline.pdf": {
-      "bytes": 100153,
-      "sha256": "6fd32da757286cfc6440b5eeb0acab5bd5413b1f2fa50157ebc594cfc7a5a7bc",
+      "bytes": 100154,
+      "sha256": "925617b1c1ca5b2ab5491023a39513625b5b66accc579828c877659522441e37",
       "pages": 1,
       "page_size": [
         612,
@@ -41,8 +41,8 @@
       ]
     },
     "03-Small-Group-Guide.pdf": {
-      "bytes": 73786,
-      "sha256": "58f931688c0510bcaad213f141a855d117797c34d18a197e3c547c47e02eaac0",
+      "bytes": 73787,
+      "sha256": "868bbe572da679835c077bb89164fae181fc8e2724b45a0a76ea44ea4199c3d5",
       "pages": 1,
       "page_size": [
         612,

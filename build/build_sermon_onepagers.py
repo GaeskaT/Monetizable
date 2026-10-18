@@ -162,6 +162,7 @@ def render_html(job, css, template):
         )
     html = (
         template.replace("{{CSS}}", css)
+        .replace("{{MASTHEAD}}", KIT.get("masthead_right", "PREACH THE FORGOTTEN · SERMON KIT 1"))
         .replace("{{DOC_TITLE}}", f"{title} — {job['kicker']}")
         .replace("{{KICKER}}", job["kicker"])
         .replace("{{TITLE}}", title)

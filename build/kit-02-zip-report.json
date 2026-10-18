@@ -2,9 +2,9 @@
   "folder": "Preach-the-Forgotten-Sermon-Kit-2-The-Man-Born-Blind",
   "zip_root": "C:\\Users\\NDUYU\\Documents\\Qoder\\2026-10-18\\59c534e6\\Preach-the-Forgotten-Sermon-Kit-2-The-Man-Born-Blind.zip",
   "zip_delivery": "C:\\Users\\NDUYU\\Documents\\Qoder\\2026-10-18\\59c534e6\\delivery\\Preach-the-Forgotten-Sermon-Kit-2-The-Man-Born-Blind.zip",
-  "zip_bytes": 4800401,
+  "zip_bytes": 4800408,
   "zip_kb": 4687.9,
-  "zip_sha256": "7a2f4bdd772a5c7dd96534571cd675fee1265434198f453b5995d02ecbace3df",
+  "zip_sha256": "84e62a47647142e61cb6e3d170c76077950392bd9b29a09104e319ddd7fc70f8",
   "file_count": 19,
   "entries": 20,
   "files": {
@@ -33,7 +33,7 @@
     },
     "02-One-Page-Outline.pdf": {
       "bytes": 103419,
-      "sha256": "ffecc0cf5b0776cefcd6ae821db86786e416e157bb965ca2db231df86dfaa50d",
+      "sha256": "7cc8ea482c2693e096c816a21e40ad586f22448868b4bddde790c9ab69c52cdb",
       "pages": 1,
       "page_size": [
         612,
@@ -41,8 +41,8 @@
       ]
     },
     "03-Small-Group-Guide.pdf": {
-      "bytes": 73599,
-      "sha256": "c8a8c38485c881189fece20a5dab63724b8e5c166a9a5be136d0b38c8153e0dd",
+      "bytes": 73598,
+      "sha256": "7ec9e2f176545876da50a042bafee2d54763bf30757f0528717f43a3c2c727b1",
       "pages": 1,
       "page_size": [
         612,

@@ -1,0 +1,34 @@
+{
+  "file": "C:\\Users\\NDUYU\\Documents\\Qoder\\2026-10-18\\59c534e6\\Preach-the-Forgotten-Sermon-Kit-6-Preaching-License.pdf",
+  "html": "C:\\Users\\NDUYU\\Documents\\Qoder\\2026-10-18\\59c534e6\\Preach-the-Forgotten-Sermon-Kit-6-Preaching-License.html",
+  "delivery": "C:\\Users\\NDUYU\\Documents\\Qoder\\2026-10-18\\59c534e6\\delivery\\Preach-the-Forgotten-Sermon-Kit-6-Preaching-License.pdf",
+  "pages": 1,
+  "page_size": [
+    612,
+    792
+  ],
+  "words": 373,
+  "fonts": [
+    "AAAAAA+Candara-Bold",
+    "BAAAAA+Candara",
+    "CAAAAA+Georgia",
+    "DAAAAA+Georgia-Italic"
+  ],
+  "max_text_y": 740.7,
+  "text_bounds_x": [
+    66.3,
+    545.2
+  ],
+  "missing_text": [],
+  "pdf_kb": 91.5,
+  "html_kb": 10.4,
+  "preview": "C:\\Users\\NDUYU\\Documents\\Qoder\\2026-10-18\\59c534e6\\build\\qa\\kit-06-license.png",
+  "checks": {
+    "single_page": true,
+    "letter_size": true,
+    "required_text": true,
+    "fonts_embedded": true,
+    "inside_frame": true,
+    "no_replacement_chars": true
+  }
+}
