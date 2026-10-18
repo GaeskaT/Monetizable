@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Woman Who Ended the War — One-page preaching outline</title>
+<style>
+@page {
+  size: Letter;
+  margin: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: #ffffff;
+}
+
+body {
+  font-family: Candara, "Segoe UI", sans-serif;
+  color: #2b2721;
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
+}
+
+.page {
+  width: 8.5in;
+  min-height: 11in;
+  padding: 0.38in 0.5in 0.4in;
+  display: flex;
+  flex-direction: column;
+}
+
+/* ---------- Masthead ---------- */
+
+.masthead {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 18pt;
+  padding-bottom: 4pt;
+  border-bottom: 0.7pt solid #c8a15e;
+}
+
+.brand {
+  font-size: 7.2pt;
+  font-weight: bold;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: #8a6a2f;
+}
+
+.series {
+  font-size: 6.7pt;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #1b2a44;
+  text-align: right;
+}
+
+/* ---------- Heading ---------- */
+
+.heading {
+  margin-top: 9pt;
+}
+
+.kicker {
+  margin: 0 0 3pt;
+  font-size: 6.8pt;
+  font-weight: bold;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: #8a6a2f;
+}
+
+h1 {
+  margin: 0;
+  font-family: Georgia, serif;
+  font-size: 22pt;
+  font-weight: normal;
+  line-height: 1.05;
+  letter-spacing: -0.005em;
+  color: #1b2a44;
+}
+
+.subtitle {
+  margin: 2.5pt 0 0;
+  font-family: Georgia, serif;
+  font-size: 9.8pt;
+  font-style: italic;
+  line-height: 1.25;
+  color: #6a5836;
+}
+
+/* ---------- Meta ---------- */
+
+.meta {
+  margin-top: 7pt;
+  padding: 6pt 9pt;
+  background: #faf6ec;
+  border-left: 2.4pt solid #c8a15e;
+}
+
+.meta p {
+  margin: 0 0 2.5pt;
+  font-size: 8pt;
+  line-height: 1.38;
+  color: #4f483d;
+}
+
+.meta p:last-child {
+  margin-bottom: 0;
+}
+
+.meta strong {
+  font-weight: bold;
+  color: #1b2a44;
+}
+
+/* ---------- Body ---------- */
+
+main.content {
+  margin-top: 7pt;
+}
+
+h2 {
+  margin: 8pt 0 3.5pt;
+  padding-bottom: 2pt;
+  border-bottom: 0.5pt solid #d9c9a8;
+  font-family: Candara, "Segoe UI", sans-serif;
+  font-size: 7.3pt;
+  font-weight: bold;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #1b2a44;
+}
+
+main.content > h2:first-child {
+  margin-top: 0;
+}
+
+p {
+  margin: 0 0 4pt;
+  font-size: 8.7pt;
+  line-height: 1.37;
+}
+
+main.content > p:last-child {
+  margin-bottom: 0;
+}
+
+ul,
+ol {
+  margin: 2pt 0 5pt;
+  padding-left: 14pt;
+}
+
+li {
+  margin: 0 0 2.4pt;
+  font-size: 8.7pt;
+  line-height: 1.34;
+}
+
+li:last-child {
+  margin-bottom: 0;
+}
+
+li strong {
+  color: #1b2a44;
+}
+
+strong {
+  font-weight: bold;
+}
+
+em {
+  font-style: italic;
+}
+
+/* ---------- Outline table ---------- */
+
+table {
+  width: 100%;
+  margin: 2pt 0 4pt;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+
+thead th {
+  padding: 2pt 5pt 2.5pt 0;
+  border-bottom: 0.6pt solid #c8a15e;
+  font-size: 6.5pt;
+  font-weight: bold;
+  letter-spacing: 0.12em;
+  text-align: left;
+  text-transform: uppercase;
+  color: #1b2a44;
+}
+
+tbody td {
+  padding: 3pt 5pt 3pt 0;
+  border-bottom: 0.4pt solid #e6dcc8;
+  font-size: 7.95pt;
+  line-height: 1.3;
+  vertical-align: top;
+  color: #3a342b;
+}
+
+tbody td:first-child {
+  font-weight: bold;
+  color: #8a6a2f;
+}
+
+tbody tr:last-child td {
+  border-bottom: none;
+}
+
+/* ---------- Footer ---------- */
+
+.footer {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 18pt;
+  margin-top: auto;
+  padding-top: 4pt;
+  border-top: 0.5pt solid #d9c9a8;
+  font-size: 6.5pt;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #8a6a2f;
+}
+
+.footer .navy {
+  color: #1b2a44;
+  text-align: right;
+}
+
+</style>
+</head>
+<body>
+<div class="page">
+  <header class="masthead">
+    <span class="brand">Silenced Saints</span>
+    <span class="series">Preach the Forgotten · Sermon Kit 1</span>
+  </header>
+
+  <section class="heading">
+    <p class="kicker">One-page preaching outline</p>
+    <h1>The Woman Who Ended the War</h1>
+    <p class="subtitle">Jael · Judges 4:1–24</p>
+  </section>
+
+  <div class="meta">
+<p><strong>Primary text:</strong> Judges 4:1–24
+<strong>Also read:</strong> Judges 5 · Luke 1:26–45 · Colossians 2:13–15 · 1 Corinthians 1:26–31
+<strong>Big idea:</strong> Jael drove a tent peg through the enemy’s head and was called blessed; Jesus let the nails be driven into his hands and made peace for his enemies.
+<strong>Time:</strong> 55–60 minutes, including a 3–5 minute response (6,955 words at about 120 wpm).
+<strong>Aim:</strong> From hiding to trusting the God who wins through the unlikely; from vengeance to the cross.</p>
+  </div>
+
+  <main class="content">
+<h2>Movement map</h2>
+<table><colgroup><col style="width:0.42in"><col style="width:1.38in"><col style="width:5.6in"></colgroup>
+<thead>
+<tr>
+<th>Min</th>
+<th>Section</th>
+<th>Beats and transition</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>5</td>
+<td><strong>Introduction: The story we skip</strong></td>
+<td>The story we sanitize: Deborah and the chariots make the flannelgraph; the tent peg does not. Yet Deborah’s song calls Jael “most blessed of women.” → <em>“Let us read the story.”</em></td>
+</tr>
+<tr>
+<td>7</td>
+<td><strong>The twenty-year silence</strong></td>
+<td>Israel does evil; the LORD sells them to Jabin; 900 iron chariots; twenty years. They cry out. Deborah judges under the palm. Barak’s commission: 10,000 at Tabor; God draws Sisera to Kishon. Barak: “If you will go with me…” Deborah: the honor will go to a woman. → <em>“Which woman?”</em></td>
+</tr>
+<tr>
+<td>8</td>
+<td><strong>The battle at Kishon</strong></td>
+<td>Deborah’s battle cry: “Does not the LORD go out before you?” The LORD routs Sisera; not a man is left. The stars fight; the torrent sweeps them away. Sisera abandons his chariot and runs to Jael’s tent; Heber has peace with Jabin. → <em>“He runs to the wrong door.”</em></td>
+</tr>
+<tr>
+<td>8</td>
+<td><strong>The open door</strong></td>
+<td>Jael goes out to meet him: “Turn aside, my lord; do not be afraid.” The rug, the milk, the lordly bowl of curds. He asks her to guard the door and lie. Hospitality, treaty, and the sleeping general. The moral tension: she will betray a guest. The text does not explain her motives. → <em>“She takes what is in her hand.”</em></td>
+</tr>
+<tr>
+<td>8</td>
+<td><strong>The peg and the hammer</strong></td>
+<td>“She went softly to him and drove the peg into his temple.” The song: “She crushed his head.” Genesis 3:15 echo. Barak arrives; Jael shows him the dead general. The war ends; Jabin is destroyed. Meroz is cursed for staying home; Jael is blessed for risking everything. → <em>“A foreign woman with a tent peg.”</em></td>
+</tr>
+<tr>
+<td>8</td>
+<td><strong>Blessed among women</strong></td>
+<td>Judges 5:24. Luke 1:42: the echo over Mary. Jael kills the enemy; Mary bears the Son who takes the nails. We are Sisera, not Israel. Colossians 2:13–15: the record of debt nailed to the cross; the powers disarmed. The resurrection ends the war. → <em>“He took the nails that were meant for us.”</em></td>
+</tr>
+<tr>
+<td>6</td>
+<td><strong>Application: What do you do with the tent peg?</strong></td>
+<td>Do not wait for the perfect moment. Do not mistake peace for passivity. Use what is in your hand. Give the victory to God. → <em>“Do your part; leave the outcome to Him.”</em></td>
+</tr>
+<tr>
+<td>3</td>
+<td><strong>The invitation</strong></td>
+<td>Sisera: running. Barak: afraid. Jael: overlooked. Come to the One who took the nail. → <em>“The door is open.”</em></td>
+</tr>
+<tr>
+<td>4</td>
+<td><strong>Response and closing</strong></td>
+<td>Silence. Which person are you? Colossians 2:13–15. Prayer. Care note for victims of violence. The tent peg ended a war; the nails ended the enmity. → <em>“Go in peace, and live like people whose war is over.”</em></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Total:</strong> 57 minutes; 55–60 with normal variation.</p>
+<h2>Lines to land</h2>
+<ul>
+<li>“The LORD routed Sisera and all his chariots and all his army.”</li>
+<li>“Most blessed of women be Jael, the wife of Heber the Kenite.”</li>
+<li>“Jael drove a peg into the enemy; Jesus took the nails for his enemies.”</li>
+<li>“The tent peg ended a war. The nails ended the enmity.”</li>
+</ul>
+<h2>Guardrails</h2>
+<ul>
+<li>Do not glamorize the killing. Name the deception and the broken treaty. Jael is God’s instrument in this war, not a model for private revenge.</li>
+<li>Do not make Jael or Deborah a culture-war mascot. The point is God’s deliverance through the unlikely, not a template for every conflict.</li>
+<li>Preach the violence with care. The sermon is not a command to take vengeance (Romans 12:19); provide a care note for victims of abuse.</li>
+<li>Keep the typology modest. Genesis 3:15 is an echo, not a direct prophecy; the tent peg is not a prophecy of the nails. “Blessed among women” is resonance, not fulfillment.</li>
+<li>Do not despise Barak. Hebrews 11:32 names him among the faithful; his is a weak faith that still obeys.</li>
+<li>The gospel must be explicit: Colossians 2:13–15 and the resurrection. Do not end on “be brave.”</li>
+</ul>
+<h2>If you must cut</h2>
+<ul>
+<li><strong>To 50 minutes:</strong> Introduction 4, Movement 1 6, Movement 2 6, Movement 3 7, Movement 4 7, Movement 5 7, Application 5. Keep 4:9, “the LORD routed,” the peg, Judges 5:24, and Colossians 2:13–15.</li>
+<li><strong>Never cut:</strong> “The LORD routed Sisera,” “Most blessed of women be Jael,” the tent peg, the Mary echo, the cross and resurrection.</li>
+</ul>
+  </main>
+
+  <footer class="footer">
+    <span>Preach the Forgotten · Sermon Kit 5</span>
+    <span class="navy">One-page outline · Jael</span>
+  </footer>
+</div>
+</body>
+</html>

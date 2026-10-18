@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Preach the Forgotten - Sermon Kit 5 - Start Here</title>
+<style>
+@page {
+  size: Letter;
+  margin: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: #ffffff;
+}
+
+body {
+  font-family: Candara, "Segoe UI", sans-serif;
+  color: #2b2721;
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
+}
+
+.page {
+  width: 8.5in;
+  min-height: 11in;
+  padding: 0.38in 0.5in 0.4in;
+  display: flex;
+  flex-direction: column;
+}
+
+/* ---------- Masthead ---------- */
+
+.masthead {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 18pt;
+  padding-bottom: 4pt;
+  border-bottom: 0.7pt solid #c8a15e;
+}
+
+.brand {
+  font-size: 7.2pt;
+  font-weight: bold;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: #8a6a2f;
+}
+
+.series {
+  font-size: 6.7pt;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #1b2a44;
+  text-align: right;
+}
+
+/* ---------- Heading ---------- */
+
+.heading {
+  margin-top: 9pt;
+}
+
+.kicker {
+  margin: 0 0 3pt;
+  font-size: 6.8pt;
+  font-weight: bold;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: #8a6a2f;
+}
+
+h1 {
+  margin: 0;
+  font-family: Georgia, serif;
+  font-size: 22pt;
+  font-weight: normal;
+  line-height: 1.05;
+  letter-spacing: -0.005em;
+  color: #1b2a44;
+}
+
+.subtitle {
+  margin: 2.5pt 0 0;
+  font-family: Georgia, serif;
+  font-size: 9.8pt;
+  font-style: italic;
+  line-height: 1.25;
+  color: #6a5836;
+}
+
+/* ---------- Meta ---------- */
+
+.meta {
+  margin-top: 7pt;
+  padding: 6pt 9pt;
+  background: #faf6ec;
+  border-left: 2.4pt solid #c8a15e;
+}
+
+.meta p {
+  margin: 0 0 2.5pt;
+  font-size: 8pt;
+  line-height: 1.38;
+  color: #4f483d;
+}
+
+.meta p:last-child {
+  margin-bottom: 0;
+}
+
+.meta strong {
+  font-weight: bold;
+  color: #1b2a44;
+}
+
+/* ---------- Body ---------- */
+
+main.content {
+  margin-top: 7pt;
+}
+
+h2 {
+  margin: 8pt 0 3.5pt;
+  padding-bottom: 2pt;
+  border-bottom: 0.5pt solid #d9c9a8;
+  font-family: Candara, "Segoe UI", sans-serif;
+  font-size: 7.3pt;
+  font-weight: bold;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #1b2a44;
+}
+
+main.content > h2:first-child {
+  margin-top: 0;
+}
+
+p {
+  margin: 0 0 4pt;
+  font-size: 8.7pt;
+  line-height: 1.37;
+}
+
+main.content > p:last-child {
+  margin-bottom: 0;
+}
+
+ul,
+ol {
+  margin: 2pt 0 5pt;
+  padding-left: 14pt;
+}
+
+li {
+  margin: 0 0 2.4pt;
+  font-size: 8.7pt;
+  line-height: 1.34;
+}
+
+li:last-child {
+  margin-bottom: 0;
+}
+
+li strong {
+  color: #1b2a44;
+}
+
+strong {
+  font-weight: bold;
+}
+
+em {
+  font-style: italic;
+}
+
+/* ---------- Outline table ---------- */
+
+table {
+  width: 100%;
+  margin: 2pt 0 4pt;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+
+thead th {
+  padding: 2pt 5pt 2.5pt 0;
+  border-bottom: 0.6pt solid #c8a15e;
+  font-size: 6.5pt;
+  font-weight: bold;
+  letter-spacing: 0.12em;
+  text-align: left;
+  text-transform: uppercase;
+  color: #1b2a44;
+}
+
+tbody td {
+  padding: 3pt 5pt 3pt 0;
+  border-bottom: 0.4pt solid #e6dcc8;
+  font-size: 7.95pt;
+  line-height: 1.3;
+  vertical-align: top;
+  color: #3a342b;
+}
+
+tbody td:first-child {
+  font-weight: bold;
+  color: #8a6a2f;
+}
+
+tbody tr:last-child td {
+  border-bottom: none;
+}
+
+/* ---------- Footer ---------- */
+
+.footer {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 18pt;
+  margin-top: auto;
+  padding-top: 4pt;
+  border-top: 0.5pt solid #d9c9a8;
+  font-size: 6.5pt;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #8a6a2f;
+}
+
+.footer .navy {
+  color: #1b2a44;
+  text-align: right;
+}
+
+</style>
+<style>
+  .start-head {
+    margin-top: 7pt;
+  }
+
+  .quick {
+    margin-top: 6pt;
+    padding: 6pt 10pt 7pt;
+    background: #faf6ec;
+    border-left: 2.4pt solid #c8a15e;
+  }
+
+  .quick .label {
+    display: block;
+    margin-bottom: 2pt;
+    font-size: 6.6pt;
+    font-weight: bold;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: #8a6a2f;
+  }
+
+  .quick p {
+    margin: 0;
+    font-size: 8.5pt;
+    line-height: 1.42;
+    color: #3a342b;
+  }
+
+  .quick strong {
+    color: #1b2a44;
+  }
+
+  .start-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 26pt;
+    margin-top: 2pt;
+  }
+
+  .column > section {
+    margin-top: 7pt;
+  }
+
+  .column > section:first-child {
+    margin-top: 5pt;
+  }
+
+  .column h2 {
+    margin-top: 0;
+  }
+
+  ul.contents {
+    margin-top: 2pt;
+  }
+
+  ul.contents li {
+    margin-bottom: 3.4pt;
+    font-size: 7.9pt;
+    line-height: 1.32;
+  }
+
+  ul.contents li strong {
+    color: #1b2a44;
+  }
+
+  .column ul.tight li {
+    margin-bottom: 3.2pt;
+    font-size: 7.9pt;
+    line-height: 1.34;
+  }
+
+  table.run {
+    margin-top: 2pt;
+    margin-bottom: 4pt;
+  }
+
+  table.run th {
+    padding: 1pt 4pt 2.5pt 0;
+    font-size: 6.3pt;
+  }
+
+  table.run td {
+    padding: 2.1pt 4pt 2.1pt 0;
+    font-size: 7.55pt;
+    line-height: 1.25;
+  }
+
+  table.run td:first-child {
+    width: 0.42in;
+    font-size: 7.4pt;
+  }
+
+  .run-note {
+    margin: 0 0 3pt;
+    font-size: 7.6pt;
+    line-height: 1.34;
+    color: #4f483d;
+  }
+
+  .cut {
+    margin: 4pt 0 0;
+    padding: 5pt 7pt;
+    background: #faf6ec;
+    border-left: 2pt solid #c8a15e;
+    font-size: 7.55pt;
+    line-height: 1.36;
+    color: #3a342b;
+  }
+
+  .cut strong {
+    color: #1b2a44;
+  }
+
+  .license-intro {
+    margin: 0 0 4pt;
+    font-size: 7.9pt;
+    line-height: 1.36;
+  }
+
+  .license-sub {
+    margin: 3.5pt 0 1pt;
+    font-size: 6.6pt;
+    font-weight: bold;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: #1b2a44;
+  }
+
+  ul.license-list {
+    margin: 0;
+    padding-left: 12pt;
+  }
+
+  ul.license-list li {
+    margin-bottom: 1.1pt;
+    font-size: 7.65pt;
+    line-height: 1.3;
+  }
+
+  .license-fine {
+    margin: 3.5pt 0 0;
+    padding-top: 2.5pt;
+    border-top: 0.4pt solid #e6dcc8;
+    font-size: 7.3pt;
+    line-height: 1.32;
+    color: #6f6657;
+  }
+
+  .feedback p {
+    margin-bottom: 3pt;
+    font-size: 7.9pt;
+    line-height: 1.36;
+  }
+
+  ol.questions {
+    margin: 1pt 0 4pt;
+    padding-left: 13pt;
+  }
+
+  ol.questions li {
+    margin-bottom: 1.6pt;
+    font-size: 7.8pt;
+    line-height: 1.32;
+  }
+
+  .guarantee {
+    margin-top: 4pt;
+    padding-top: 4pt;
+    border-top: 0.4pt solid #d9c9a8;
+    font-family: Georgia, serif;
+    font-size: 7.6pt;
+    font-style: italic;
+    line-height: 1.38;
+    color: #6a5836;
+  }
+</style>
+</head>
+<body>
+<div class="page">
+  <header class="masthead">
+    <span class="brand">Silenced Saints</span>
+    <span class="series">Preach the Forgotten · Sermon Kit 5</span>
+  </header>
+
+  <main>
+    <section class="start-head">
+      <p class="kicker">Start here</p>
+      <h1>From the folder to the pulpit</h1>
+      <p class="subtitle">Sermon Kit 5: Jael — “The Woman Who Ended the War”</p>
+    </section>
+
+    <section class="quick">
+      <span class="label">The short version</span>
+      <p><strong>Read</strong> the manuscript once. <strong>Make it yours</strong> in the DOCX. <strong>Rehearse</strong> it aloud with the outline. <strong>Preach</strong> it. The slides and guide support the sermon; they are not the sermon.</p>
+    </section>
+
+    <div class="start-grid">
+      <div class="column">
+        <section>
+          <h2>What’s in the folder</h2>
+          <ul class="contents">
+            <li><strong>00 · Start Here</strong> — this sheet.</li>
+            <li><strong>01 · Preaching Manuscript</strong> — 6,955 words in two formats. PDF to read; DOCX to edit.</li>
+            <li><strong>02 · One-Page Outline</strong> — movements, timings, lines to land, and the 50-minute cut.</li>
+            <li><strong>03 · Small-Group Guide</strong> — eight questions and leader notes for a follow-up group.</li>
+            <li><strong>04 · Slides (PPTX)</strong> — twelve 16:9 slides, editable in PowerPoint, Keynote, or Google Slides.</li>
+            <li><strong>05 · Slides (PNG)</strong> — the same twelve slides as images for a projector or video.</li>
+            <li><strong>06 · Preaching License</strong> — one page. Keep it with your order records.</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>Make it yours</h2>
+          <ul class="tight">
+            <li><strong>Work in the DOCX, not the PDF.</strong> Change names, local details, and illustrations. Put your own stories in your own voice.</li>
+            <li><strong>Keep the evidence.</strong> The 900 iron chariots, the Kishon rout, the Kenite treaty, and the tent peg are doing theological work, and the cross and empty tomb are the turn.</li>
+            <li><strong>Update the title page</strong> if you change the title or primary text.</li>
+            <li><strong>The deck is fully editable.</strong> All text is live. Georgia sets the headings and Candara the body; if either is missing on your machine, swap both for fonts you have.</li>
+            <li><strong>Read it aloud once before Sunday.</strong> If a sentence trips you, change it.</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>Guardrails</h2>
+          <ul class="tight">
+            <li>Do not glamorize the killing. Name the deception and the broken treaty; Jael is God’s instrument in this war, not a model for private revenge.</li>
+            <li>Do not make Jael or Deborah a culture-war mascot. The point is God’s deliverance through the unlikely.</li>
+            <li>Preach the violence with pastoral care. The sermon is not a command to take vengeance; provide a care note for victims of violence and abuse.</li>
+            <li>Keep the typology modest. Genesis 3:15 is an echo, not a direct prophecy; the tent peg is not a prophecy of the nails.</li>
+            <li>Do not despise Barak. Hebrews 11:32 names him among the faithful; his is a weak faith that still obeys.</li>
+            <li>The gospel must be explicit: Colossians 2:13–15 and the resurrection. Do not end on “be brave.”</li>
+          </ul>
+        </section>
+      </div>
+
+      <div class="column">
+        <section>
+          <h2>Take it to the pulpit</h2>
+          <table class="run">
+            <colgroup><col style="width:0.42in"><col></colgroup>
+            <thead>
+              <tr><th>Min</th><th>Section</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>5</td><td>Introduction: The story we skip</td></tr>
+              <tr><td>7</td><td>The twenty-year silence</td></tr>
+              <tr><td>8</td><td>The battle at Kishon</td></tr>
+              <tr><td>8</td><td>The open door</td></tr>
+              <tr><td>8</td><td>The peg and the hammer</td></tr>
+              <tr><td>8</td><td>Blessed among women</td></tr>
+              <tr><td>6</td><td>Application: What do you do with the tent peg?</td></tr>
+              <tr><td>3</td><td>The invitation</td></tr>
+              <tr><td>4</td><td>Response and closing</td></tr>
+            </tbody>
+          </table>
+          <p class="run-note"><strong>57 minutes</strong> with the full response; 55–60 with normal variation. The manuscript is 6,955 words at about 120 words per minute.</p>
+          <p class="cut"><strong>If you have 50 minutes:</strong> Introduction to 4, Movement 1 to 6, Movement 2 to 6, Movement 3 to 7, Movement 4 to 7, Movement 5 to 7, Application to 5. Keep the prophecy of 4:9, “the LORD routed,” the peg, Judges 5:24, and Colossians 2:13–15.</p>
+        </section>
+
+        <section>
+          <h2>The license at a glance</h2>
+          <p class="license-intro">One license covers one congregation or campus, any preacher on staff. It does not expire.</p>
+          <p class="license-sub">You may</p>
+          <ul class="license-list">
+            <li>Preach and teach this sermon in one congregation or campus, as often as you like.</li>
+            <li>Edit the manuscript for local context and your own voice.</li>
+            <li>Record and stream it as part of normal services.</li>
+            <li>Print the outline and guide for your preaching team and groups.</li>
+            <li>Keep the files on a private, access-controlled system.</li>
+          </ul>
+          <p class="license-sub">You may not</p>
+          <ul class="license-list">
+            <li>Share the files with preachers outside your congregation.</li>
+            <li>Post the manuscript publicly or sell it.</li>
+            <li>Republish it as a standalone work, edited or not.</li>
+            <li>Use one license across multiple campuses.</li>
+            <li>Use the material at a paid conference or event without written permission.</li>
+          </ul>
+          <p class="license-fine">Your edits are yours; the underlying manuscript remains the property of Silenced Saints. No attribution is required. The one-page license is the full grant; keep it with your order records.</p>
+        </section>
+
+        <section class="feedback">
+          <h2>Tell me how it went</h2>
+          <p>Reply to the email that delivered this kit. Three questions, short answers:</p>
+          <ol class="questions">
+            <li>Do you preach — pastor, lay preacher, teacher, or something else?</li>
+            <li>Which of the nine forgotten figures should I write next?</li>
+            <li>Where did you hear about this kit?</li>
+          </ol>
+          <p>Tell me your preaching date and what you changed. I read every reply; it decides which kit comes next.</p>
+          <p class="guarantee">If this kit does not save you a full day of sermon prep, reply within 14 days for a refund.</p>
+        </section>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <span>Preach the Forgotten · Sermon Kit 5</span>
+    <span class="navy">Start Here · Jael</span>
+  </footer>
+</div>
+</body>
+</html>

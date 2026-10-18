@@ -541,8 +541,8 @@ def slide_banner(prs, spec, number, kind):
         ],
     )
     if kind == "scripture":
-        rect(slide, 10.88, 1.88, 0.08, 2.29, GOLD)
-        rect(slide, 10.31, 2.50, 1.21, 0.08, GOLD)
+        rect(slide, 11.85, 2.72, 0.08, 1.12, GOLD)
+        rect(slide, 11.35, 3.17, 1.08, 0.08, GOLD)
     textbox(
         slide,
         0.79,
