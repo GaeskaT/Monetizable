@@ -2,9 +2,9 @@
   "folder": "Preach-the-Forgotten-Sermon-Kit-3-Belshazzar",
   "zip_root": "C:\\Users\\NDUYU\\Documents\\Qoder\\2026-10-18\\59c534e6\\Preach-the-Forgotten-Sermon-Kit-3-Belshazzar.zip",
   "zip_delivery": "C:\\Users\\NDUYU\\Documents\\Qoder\\2026-10-18\\59c534e6\\delivery\\Preach-the-Forgotten-Sermon-Kit-3-Belshazzar.zip",
-  "zip_bytes": 4359186,
-  "zip_kb": 4257.0,
-  "zip_sha256": "4f39068b09c387e8420a28e8cb0d15e57e8b6f3e156c8204ca4c7d46e4aa5699",
+  "zip_bytes": 4359057,
+  "zip_kb": 4256.9,
+  "zip_sha256": "91c0fef8c213ea0357c84b8a1c97ac1ded04ce6f7d06c2a78c5298bc8a2f0df1",
   "file_count": 19,
   "entries": 20,
   "files": {
@@ -50,8 +50,8 @@
       ]
     },
     "04-Slides-The-Weightless-King.pptx": {
-      "bytes": 1720617,
-      "sha256": "2115b198d9ce436e260cb1163ef87cdfd2b840c4980e4ce59b346c902020bcba",
+      "bytes": 1720613,
+      "sha256": "58f920d7ed1e40bdd357799d9322d4192c26b882644af392f910d7ab0034e21e",
       "slides": 12,
       "slide_size_px": [
         1280,
@@ -117,7 +117,7 @@
       ]
     },
     "slide-08.png": {
-      "bytes": 27679,
+      "bytes": 27332,
       "size_px": [
         1280,
         720

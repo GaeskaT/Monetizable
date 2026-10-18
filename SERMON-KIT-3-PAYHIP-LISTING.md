@@ -12,6 +12,7 @@
 | Visibility | Invisible / hidden until the batch is approved for release |
 | Cover | `assets/listing/Sermon-Kit-3-Cover.png` (1600×900) |
 | Download file | `Preach-the-Forgotten-Sermon-Kit-3-Belshazzar.zip` (4.2 MB, 19 files) |
+| ZIP SHA-256 | `91c0fef8c213ea0357c84b8a1c97ac1ded04ce6f7d06c2a78c5298bc8a2f0df1` |
 | SKU | PF-SK-003 (not exposed in Payhip's product form) |
 | Product ID | `k9jKB` |
 | Product URL | https://payhip.com/b/k9jKB |
@@ -25,6 +26,7 @@
 - Signed-out request to the product URL with a browser user agent returns **302 → store page**; the product page is not served.
 - Signed-out store page has no card or link for `k9jKB`.
 - Checkout was not completed and no payment details were entered.
+- 2026-10-19 deck polish: the gold cross on slide 8 moved to the lower-right corner of the banner so it no longer crosses the verse text. The PPTX, 12 slide PNGs, and ZIP were rebuilt; Payhip now serves the corrected ZIP (`4,359,057` bytes, file ID `NzM4D4XrW7`). All other slides are byte-identical.
 
 ## Card copy
 
