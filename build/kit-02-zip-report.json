@@ -1,0 +1,170 @@
+{
+  "folder": "Preach-the-Forgotten-Sermon-Kit-2-The-Man-Born-Blind",
+  "zip_root": "C:\\Users\\NDUYU\\Documents\\Qoder\\2026-10-18\\59c534e6\\Preach-the-Forgotten-Sermon-Kit-2-The-Man-Born-Blind.zip",
+  "zip_delivery": "C:\\Users\\NDUYU\\Documents\\Qoder\\2026-10-18\\59c534e6\\delivery\\Preach-the-Forgotten-Sermon-Kit-2-The-Man-Born-Blind.zip",
+  "zip_bytes": 4800396,
+  "zip_kb": 4687.9,
+  "zip_sha256": "49ac4d6a136f72fc1bd65695ecb3741e9d88c648c02845d360eee6b6ecd614be",
+  "file_count": 19,
+  "entries": 20,
+  "files": {
+    "00-START-HERE.pdf": {
+      "bytes": 98331,
+      "sha256": "524bc24b8ed675d5db52f6cde7b2c45d6b45c2b536af1a3f4ace9203d17324c1",
+      "pages": 1,
+      "page_size": [
+        612,
+        792
+      ]
+    },
+    "01-Preaching-Manuscript.pdf": {
+      "bytes": 640121,
+      "sha256": "6e5eb1899d3dc47f9039080972611c6d9e6b8f0aec3ed5e8d019837ef3744e76",
+      "pages": 17,
+      "page_size": [
+        612,
+        792
+      ]
+    },
+    "01-Preaching-Manuscript.docx": {
+      "bytes": 53603,
+      "sha256": "745c121a159e72c94b42200b0eb5d4d8447e56c36fef0889291aac345392295b",
+      "paragraphs": 206
+    },
+    "02-One-Page-Outline.pdf": {
+      "bytes": 103419,
+      "sha256": "ffecc0cf5b0776cefcd6ae821db86786e416e157bb965ca2db231df86dfaa50d",
+      "pages": 1,
+      "page_size": [
+        612,
+        792
+      ]
+    },
+    "03-Small-Group-Guide.pdf": {
+      "bytes": 73599,
+      "sha256": "c8a8c38485c881189fece20a5dab63724b8e5c166a9a5be136d0b38c8153e0dd",
+      "pages": 1,
+      "page_size": [
+        612,
+        792
+      ]
+    },
+    "04-Slides-The-Man-Who-Never-Asked.pptx": {
+      "bytes": 1951511,
+      "sha256": "2da133015cc91e69404c91f0bd86873af56cc25458a188600e2efc7968866779",
+      "slides": 12,
+      "slide_size_px": [
+        1280,
+        720
+      ]
+    },
+    "06-Preaching-License.pdf": {
+      "bytes": 95071,
+      "sha256": "071bc41a83385d35f7953790741ead305a71dc2290d9efc6c050dfa1521a5de1",
+      "pages": 1,
+      "page_size": [
+        612,
+        792
+      ]
+    },
+    "slide-01.png": {
+      "bytes": 1038617,
+      "size_px": [
+        1280,
+        720
+      ]
+    },
+    "slide-02.png": {
+      "bytes": 18859,
+      "size_px": [
+        1280,
+        720
+      ]
+    },
+    "slide-03.png": {
+      "bytes": 19478,
+      "size_px": [
+        1280,
+        720
+      ]
+    },
+    "slide-04.png": {
+      "bytes": 21157,
+      "size_px": [
+        1280,
+        720
+      ]
+    },
+    "slide-05.png": {
+      "bytes": 37456,
+      "size_px": [
+        1280,
+        720
+      ]
+    },
+    "slide-06.png": {
+      "bytes": 39543,
+      "size_px": [
+        1280,
+        720
+      ]
+    },
+    "slide-07.png": {
+      "bytes": 14517,
+      "size_px": [
+        1280,
+        720
+      ]
+    },
+    "slide-08.png": {
+      "bytes": 28845,
+      "size_px": [
+        1280,
+        720
+      ]
+    },
+    "slide-09.png": {
+      "bytes": 28777,
+      "size_px": [
+        1280,
+        720
+      ]
+    },
+    "slide-10.png": {
+      "bytes": 26490,
+      "size_px": [
+        1280,
+        720
+      ]
+    },
+    "slide-11.png": {
+      "bytes": 16602,
+      "size_px": [
+        1280,
+        720
+      ]
+    },
+    "slide-12.png": {
+      "bytes": 660049,
+      "size_px": [
+        1280,
+        720
+      ]
+    }
+  },
+  "checks": {
+    "crc": true,
+    "entry_order": true,
+    "folder_structure": true,
+    "file_count": true,
+    "pdf_pages_and_size": true,
+    "pdf_text": true,
+    "docx_readable": true,
+    "pptx_12_slides": true,
+    "png_1280x720": true,
+    "no_placeholders": true,
+    "no_replacement_chars": true,
+    "root_delivery_match": true
+  },
+  "status": "passed"
+}

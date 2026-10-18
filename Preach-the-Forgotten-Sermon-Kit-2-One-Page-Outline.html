@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Man Who Never Asked — One-page preaching outline</title>
+<style>
+@page {
+  size: Letter;
+  margin: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: #ffffff;
+}
+
+body {
+  font-family: Candara, "Segoe UI", sans-serif;
+  color: #2b2721;
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
+}
+
+.page {
+  width: 8.5in;
+  min-height: 11in;
+  padding: 0.38in 0.5in 0.4in;
+  display: flex;
+  flex-direction: column;
+}
+
+/* ---------- Masthead ---------- */
+
+.masthead {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 18pt;
+  padding-bottom: 4pt;
+  border-bottom: 0.7pt solid #c8a15e;
+}
+
+.brand {
+  font-size: 7.2pt;
+  font-weight: bold;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: #8a6a2f;
+}
+
+.series {
+  font-size: 6.7pt;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #1b2a44;
+  text-align: right;
+}
+
+/* ---------- Heading ---------- */
+
+.heading {
+  margin-top: 9pt;
+}
+
+.kicker {
+  margin: 0 0 3pt;
+  font-size: 6.8pt;
+  font-weight: bold;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: #8a6a2f;
+}
+
+h1 {
+  margin: 0;
+  font-family: Georgia, serif;
+  font-size: 22pt;
+  font-weight: normal;
+  line-height: 1.05;
+  letter-spacing: -0.005em;
+  color: #1b2a44;
+}
+
+.subtitle {
+  margin: 2.5pt 0 0;
+  font-family: Georgia, serif;
+  font-size: 9.8pt;
+  font-style: italic;
+  line-height: 1.25;
+  color: #6a5836;
+}
+
+/* ---------- Meta ---------- */
+
+.meta {
+  margin-top: 7pt;
+  padding: 6pt 9pt;
+  background: #faf6ec;
+  border-left: 2.4pt solid #c8a15e;
+}
+
+.meta p {
+  margin: 0 0 2.5pt;
+  font-size: 8pt;
+  line-height: 1.38;
+  color: #4f483d;
+}
+
+.meta p:last-child {
+  margin-bottom: 0;
+}
+
+.meta strong {
+  font-weight: bold;
+  color: #1b2a44;
+}
+
+/* ---------- Body ---------- */
+
+main.content {
+  margin-top: 7pt;
+}
+
+h2 {
+  margin: 8pt 0 3.5pt;
+  padding-bottom: 2pt;
+  border-bottom: 0.5pt solid #d9c9a8;
+  font-family: Candara, "Segoe UI", sans-serif;
+  font-size: 7.3pt;
+  font-weight: bold;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #1b2a44;
+}
+
+main.content > h2:first-child {
+  margin-top: 0;
+}
+
+p {
+  margin: 0 0 4pt;
+  font-size: 8.7pt;
+  line-height: 1.37;
+}
+
+main.content > p:last-child {
+  margin-bottom: 0;
+}
+
+ul,
+ol {
+  margin: 2pt 0 5pt;
+  padding-left: 14pt;
+}
+
+li {
+  margin: 0 0 2.4pt;
+  font-size: 8.7pt;
+  line-height: 1.34;
+}
+
+li:last-child {
+  margin-bottom: 0;
+}
+
+li strong {
+  color: #1b2a44;
+}
+
+strong {
+  font-weight: bold;
+}
+
+em {
+  font-style: italic;
+}
+
+/* ---------- Outline table ---------- */
+
+table {
+  width: 100%;
+  margin: 2pt 0 4pt;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+
+thead th {
+  padding: 2pt 5pt 2.5pt 0;
+  border-bottom: 0.6pt solid #c8a15e;
+  font-size: 6.5pt;
+  font-weight: bold;
+  letter-spacing: 0.12em;
+  text-align: left;
+  text-transform: uppercase;
+  color: #1b2a44;
+}
+
+tbody td {
+  padding: 3pt 5pt 3pt 0;
+  border-bottom: 0.4pt solid #e6dcc8;
+  font-size: 7.95pt;
+  line-height: 1.3;
+  vertical-align: top;
+  color: #3a342b;
+}
+
+tbody td:first-child {
+  font-weight: bold;
+  color: #8a6a2f;
+}
+
+tbody tr:last-child td {
+  border-bottom: none;
+}
+
+/* ---------- Footer ---------- */
+
+.footer {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 18pt;
+  margin-top: auto;
+  padding-top: 4pt;
+  border-top: 0.5pt solid #d9c9a8;
+  font-size: 6.5pt;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #8a6a2f;
+}
+
+.footer .navy {
+  color: #1b2a44;
+  text-align: right;
+}
+
+</style>
+</head>
+<body>
+<div class="page">
+  <header class="masthead">
+    <span class="brand">Silenced Saints</span>
+    <span class="series">Preach the Forgotten · Sermon Kit 1</span>
+  </header>
+
+  <section class="heading">
+    <p class="kicker">One-page preaching outline</p>
+    <h1>The Man Who Never Asked</h1>
+    <p class="subtitle">The Man Born Blind · John 9:1–41</p>
+  </section>
+
+  <div class="meta">
+<p><strong>Primary text:</strong> John 9:1–41
+<strong>Also read:</strong> John 10:1–18 · Genesis 2:7 · 2 Kings 20:20 · Isaiah 8:6 · Nehemiah 3:15
+<strong>Big idea:</strong> The light comes to the man who never asked, and goes looking for him after the room casts him out.
+<strong>Time:</strong> 55–60 minutes, including a 3–5 minute response (6,559 words at about 125 wpm).
+<strong>Aim:</strong> Move the room from asking “Who sinned?” to saying “One thing I know,” and from staying inside the room to going after the one it threw out.</p>
+  </div>
+
+  <main class="content">
+<h2>Movement map</h2>
+<table><colgroup><col style="width:0.42in"><col style="width:1.38in"><col style="width:5.6in"></colgroup>
+<thead>
+<tr>
+<th>Min</th>
+<th>Section</th>
+<th>Beats and transition</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>5</td>
+<td><strong>Introduction: The question in the street</strong></td>
+<td>The disciples ask whose fault the blindness is while the man listens. He is a case file with a heartbeat. Jesus refuses the equation: “the works of God might be displayed in him.” The light of the world stands beside a man who never asks. → <em>“The light walked over to the darkness and crouched down beside it.”</em></td>
+</tr>
+<tr>
+<td>7</td>
+<td><strong>The man nobody asked</strong></td>
+<td>The theology of retribution, and the Bible’s own complication of it (Job 42:7; Luke 13:1–5). Jesus sees a man, not a problem. The night is coming. Grace arrives before the ask. → <em>“The disciples saw a theological problem. Jesus saw a man.”</em></td>
+</tr>
+<tr>
+<td>8</td>
+<td><strong>Mud and the Sent Pool</strong></td>
+<td>Spit and dust; Genesis 2:7; the Creator uses dirt. “Go, wash in Siloam” — the name means Sent. The man walks in the dark by trust. He washes and sees. The pool is real: Hezekiah’s tunnel, the Siloam inscription, the 2004 discovery. → <em>“He went. He washed. He came back seeing.”</em></td>
+</tr>
+<tr>
+<td>6</td>
+<td><strong>The neighbors and the first testimony</strong></td>
+<td>The neighbors cannot agree who he is; “I am the man.” His first testimony is simple: “the man called Jesus.” His Christology grows from a name to a prophet to a man from God to Lord. → <em>“He knew one thing, and he held on to it, and the light kept growing.”</em></td>
+</tr>
+<tr>
+<td>8</td>
+<td><strong>The interrogations</strong></td>
+<td>The Sabbath charge; the Pharisees divide. The parents go silent for fear of expulsion. “Give glory to God.” “One thing I know.” The logic of the healed man. “You were born in utter sin” — and they cast him out. → <em>“He loses his community for telling the truth about his own eyes.”</em></td>
+</tr>
+<tr>
+<td>8</td>
+<td><strong>Cast out and found</strong></td>
+<td>Jesus hears, seeks, finds. The first face the man sees is the face of the one who healed him. “Lord, I believe” — worship in the street. The warning: those who say “We see” remain blind. → <em>“They threw him out. Jesus went looking.”</em></td>
+</tr>
+<tr>
+<td>7</td>
+<td><strong>Application: What do you do with the light?</strong></td>
+<td>Stop writing the case file. Say what you know. Go looking for the cast-out. Worship before you see the whole picture. → <em>“The light is not a theory. It is a person.”</em></td>
+</tr>
+<tr>
+<td>3</td>
+<td><strong>The invitation</strong></td>
+<td>Two people: the one outside who was cast out, and the one inside who thought he could see. The light is still walking. → <em>“Come while it is day.”</em></td>
+</tr>
+<tr>
+<td>5</td>
+<td><strong>Response and closing</strong></td>
+<td>Silence. Name the label. Say “One thing I know.” Ask, “Jesus, let me see you.” Pray. → <em>“The light of the world walked toward a man who never asked.”</em></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Total:</strong> 57 minutes with a full response; 55–60 with normal variation.</p>
+<h2>Lines to land</h2>
+<ul>
+<li><strong>The question:</strong> “He is not a person in that sentence. He is a condition. A case study. A theological problem with a heartbeat.”</li>
+<li><strong>The grace:</strong> “The light walked over to the darkness and crouched down beside it.”</li>
+<li><strong>The cost:</strong> “He loses his community for telling the truth about his own eyes.”</li>
+<li><strong>The turn:</strong> “They threw him out. Jesus went looking.”</li>
+<li><strong>The gospel:</strong> “The man who was thrown out of the house of God worships the Son of God in the street.”</li>
+</ul>
+<h2>Guardrails</h2>
+<ul>
+<li>Do not turn John 9:3 into a formula that says every instance of suffering is “for God’s glory.” Jesus says it about this man, in this story.</li>
+<li>Keep the archaeology in its place: the pool is real; the miracle remains a claim the text asks you to trust.</li>
+<li>Track the man’s growing Christology. Do not make him a instant theologian; he is a witness who is still learning.</li>
+<li>Do not cartoon the Pharisees. John says the group was divided, and the parents’ fear was real. The warning at the end is for the church too.</li>
+<li>Protect the casting out, the finding, the worship, the invitation, and the silence.</li>
+</ul>
+<h2>If you must cut</h2>
+<ul>
+<li><strong>To 50 minutes:</strong> Introduction to 4, Movement 1 to 5, Movement 2 to 6, Movement 4 to 7, Application to 6. Keep the pool, “One thing I know,” and the finding.</li>
+<li><strong>Never cut:</strong> the man never asking, the mud and the Sent pool, “One thing I know,” the casting out and finding, and the worship in the street.</li>
+</ul>
+  </main>
+
+  <footer class="footer">
+    <span>Preach the Forgotten · Sermon Kit 2</span>
+    <span class="navy">One-page outline · The Man Born Blind</span>
+  </footer>
+</div>
+</body>
+</html>

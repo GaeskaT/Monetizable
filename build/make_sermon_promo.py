@@ -1,3 +1,5 @@
+import json
+import sys
 from pathlib import Path
 
 from PIL import Image, ImageDraw, ImageFilter, ImageFont, PngImagePlugin
@@ -15,6 +17,35 @@ CREAM = (244, 236, 220)
 CREAM_SOFT = (216, 205, 185)
 GOLD = (200, 161, 94)
 MUTED = (184, 174, 157)
+
+KIT = {}
+for _index, _arg in enumerate(sys.argv):
+    if _arg == "--config" and _index + 1 < len(sys.argv):
+        KIT = json.loads(Path(sys.argv[_index + 1]).read_text(encoding="utf-8"))
+
+if KIT:
+    KIT_NO = KIT["kit"]
+    ART = ROOT / KIT["cover_art"]
+    FIGURE = KIT["figure"]
+    TITLE_LINES = KIT["cover_lines"]
+    QUOTE_LINES = KIT["quote_lines"]
+    QUOTE_ATTR = KIT.get("quote_attribution", f"{FIGURE} · {KIT['primary_text']}")
+    PRIMARY = KIT["primary_text"].upper()
+    OUT_PREFIX = f"Sermon-Kit-{KIT_NO}"
+    KIT_LABEL = f"SERMON KIT {KIT_NO}"
+    TITLE_LABEL = KIT["title"].upper()
+    COVER_RUN = KIT.get("cover_run", f"A complete {KIT['start_here_minutes']}-minute sermon")
+else:
+    KIT_NO = 1
+    FIGURE = "Mary of Bethany"
+    TITLE_LINES = ["What the Room", "Called Waste"]
+    QUOTE_LINES = ["The room called it waste.", "Jesus called it beautiful."]
+    QUOTE_ATTR = "Mary of Bethany · John 12:1–8"
+    PRIMARY = "JOHN 12:1–8"
+    OUT_PREFIX = "Sermon-Kit-1"
+    KIT_LABEL = "SERMON KIT 1"
+    TITLE_LABEL = "WHAT THE ROOM CALLED WASTE"
+    COVER_RUN = "A complete 57-minute sermon"
 
 
 def font(name, size):
@@ -109,25 +140,24 @@ def build_cover():
     draw.line([(split, 0), (split, height)], fill=GOLD, width=2)
 
     tracked(draw, "SILENCED SAINTS", font("candarab.ttf", 17), 5, GOLD, (84, 54))
-    badge(draw, 638, 46, 156, 40, "SERMON KIT 1", 12, 2.5)
+    badge(draw, 638, 46, 156, 40, KIT_LABEL, 12, 2.5)
     tracked(draw, "PREACH THE FORGOTTEN", font("candara.ttf", 11.5), 4, MUTED, (84, 88))
     tracked(draw, "A SERMON FOR THE PULPIT", font("candarab.ttf", 13.5), 5, GOLD, (84, 180))
 
-    title_lines = ["What the Room", "Called Waste"]
-    size, title_font = fit(draw, title_lines, "georgia.ttf", 720, 96, 72)
+    size, title_font = fit(draw, TITLE_LINES, "georgia.ttf", 720, 96, 72)
     line_h = int(round(size * 1.1))
-    draw.text((84, 222), title_lines[0], font=title_font, fill=CREAM)
-    draw.text((84, 222 + line_h), title_lines[1], font=title_font, fill=CREAM)
+    draw.text((84, 222), TITLE_LINES[0], font=title_font, fill=CREAM)
+    draw.text((84, 222 + line_h), TITLE_LINES[1], font=title_font, fill=CREAM)
 
     subtitle_y = 222 + 2 * line_h + 18
-    draw.text((84, subtitle_y), "Mary of Bethany", font=font("georgiai.ttf", 38), fill=GOLD)
+    draw.text((84, subtitle_y), FIGURE, font=font("georgiai.ttf", 38), fill=GOLD)
     rule_y = subtitle_y + 70
     draw.rectangle([84, rule_y, 424, rule_y + 2], fill=GOLD)
 
     desc_y = rule_y + 30
     draw.text(
         (84, desc_y),
-        "A complete 57-minute sermon",
+        COVER_RUN,
         font=font("candara.ttf", 21),
         fill=CREAM,
     )
@@ -154,7 +184,7 @@ def build_cover():
         fill=MUTED,
     )
 
-    tracked(draw, "JOHN 12:1–8", font("candarab.ttf", 13), 2, GOLD, (84, 810))
+    tracked(draw, PRIMARY, font("candarab.ttf", 13), 2, GOLD, (84, 810))
     tracked(
         draw,
         "FIRST EDITION · OCTOBER 2026",
@@ -166,9 +196,9 @@ def build_cover():
 
     save(
         canvas,
-        OUT / "Sermon-Kit-1-Cover.png",
-        "What the Room Called Waste - Sermon Kit 1 Cover",
-        "Landscape listing cover for Preach the Forgotten Sermon Kit 1: Mary of Bethany.",
+        OUT / f"{OUT_PREFIX}-Cover.png",
+        f"{KIT['title'] if KIT else 'What the Room Called Waste'} - Sermon Kit {KIT_NO} Cover",
+        f"Landscape listing cover for Preach the Forgotten Sermon Kit {KIT_NO}: {FIGURE}.",
     )
 
 
@@ -181,25 +211,24 @@ def build_title_promo():
     draw.line([(split, 0), (split, height)], fill=GOLD, width=2)
 
     tracked(draw, "SILENCED SAINTS", font("candarab.ttf", 13.5), 4, GOLD, (64, 42))
-    badge(draw, 506, 35, 130, 33, "SERMON KIT 1", 10.5, 2)
+    badge(draw, 506, 35, 130, 33, KIT_LABEL, 10.5, 2)
     tracked(draw, "PREACH THE FORGOTTEN", font("candara.ttf", 10.5), 3, MUTED, (64, 68))
     tracked(draw, "A SERMON FOR THE PULPIT", font("candarab.ttf", 11), 4, GOLD, (64, 138))
 
-    title_lines = ["What the Room", "Called Waste"]
-    size, title_font = fit(draw, title_lines, "georgia.ttf", 600, 76, 58)
+    size, title_font = fit(draw, TITLE_LINES, "georgia.ttf", 600, 76, 58)
     line_h = int(round(size * 1.1))
-    draw.text((64, 174), title_lines[0], font=title_font, fill=CREAM)
-    draw.text((64, 174 + line_h), title_lines[1], font=title_font, fill=CREAM)
+    draw.text((64, 174), TITLE_LINES[0], font=title_font, fill=CREAM)
+    draw.text((64, 174 + line_h), TITLE_LINES[1], font=title_font, fill=CREAM)
 
     subtitle_y = 174 + 2 * line_h + 12
-    draw.text((64, subtitle_y), "Mary of Bethany", font=font("georgiai.ttf", 29), fill=GOLD)
+    draw.text((64, subtitle_y), FIGURE, font=font("georgiai.ttf", 29), fill=GOLD)
     rule_y = subtitle_y + 52
     draw.rectangle([64, rule_y, 334, rule_y + 2], fill=GOLD)
 
     desc_y = rule_y + 22
     draw.text(
         (64, desc_y),
-        "A complete 57-minute sermon",
+        COVER_RUN,
         font=font("candara.ttf", 17),
         fill=CREAM,
     )
@@ -218,7 +247,7 @@ def build_title_promo():
         fill=MUTED,
     )
 
-    tracked(draw, "JOHN 12:1–8", font("candarab.ttf", 10.5), 1.8, GOLD, (64, 642))
+    tracked(draw, PRIMARY, font("candarab.ttf", 10.5), 1.8, GOLD, (64, 642))
     tracked(
         draw,
         "FIRST EDITION · OCTOBER 2026",
@@ -230,9 +259,9 @@ def build_title_promo():
 
     save(
         canvas,
-        OUT / "Sermon-Kit-1-Promo-Title.png",
-        "What the Room Called Waste - Sermon Kit 1 Promo",
-        "16:9 title promo for Preach the Forgotten Sermon Kit 1: Mary of Bethany.",
+        OUT / f"{OUT_PREFIX}-Promo-Title.png",
+        f"{KIT['title'] if KIT else 'What the Room Called Waste'} - Sermon Kit {KIT_NO} Promo",
+        f"16:9 title promo for Preach the Forgotten Sermon Kit {KIT_NO}: {FIGURE}.",
     )
 
 
@@ -246,7 +275,7 @@ def build_square():
     draw = ImageDraw.Draw(canvas)
 
     tracked(draw, "SILENCED SAINTS", font("candarab.ttf", 14), 4, CREAM, (54, 40))
-    badge(draw, 868, 32, 158, 38, "SERMON KIT 1", 10.5, 2.2)
+    badge(draw, 868, 32, 158, 38, KIT_LABEL, 10.5, 2.2)
     draw.line([(0, image_h), (width, image_h)], fill=GOLD, width=2)
 
     tracked(
@@ -259,20 +288,19 @@ def build_square():
         "center",
     )
 
-    title_lines = ["What the Room", "Called Waste"]
-    size, title_font = fit(draw, title_lines, "georgia.ttf", 940, 66, 52)
+    size, title_font = fit(draw, TITLE_LINES, "georgia.ttf", 940, 66, 52)
     line_h = int(round(size * 1.1))
-    draw.text((width / 2, 704), title_lines[0], font=title_font, fill=CREAM, anchor="ma")
-    draw.text((width / 2, 704 + line_h), title_lines[1], font=title_font, fill=CREAM, anchor="ma")
+    draw.text((width / 2, 704), TITLE_LINES[0], font=title_font, fill=CREAM, anchor="ma")
+    draw.text((width / 2, 704 + line_h), TITLE_LINES[1], font=title_font, fill=CREAM, anchor="ma")
 
     subtitle_y = 704 + 2 * line_h + 12
-    draw.text((width / 2, subtitle_y), "Mary of Bethany", font=font("georgiai.ttf", 26), fill=GOLD, anchor="ma")
+    draw.text((width / 2, subtitle_y), FIGURE, font=font("georgiai.ttf", 26), fill=GOLD, anchor="ma")
     rule_y = subtitle_y + 46
     draw.rectangle([width / 2 - 48, rule_y, width / 2 + 48, rule_y + 2], fill=GOLD)
 
     draw.text(
         (width / 2, rule_y + 22),
-        "A complete 57-minute sermon",
+        COVER_RUN,
         font=font("candara.ttf", 13.5),
         fill=CREAM,
         anchor="ma",
@@ -298,9 +326,9 @@ def build_square():
 
     save(
         canvas,
-        OUT / "Sermon-Kit-1-Promo-Square.png",
-        "What the Room Called Waste - Sermon Kit 1 Square",
-        "Square social promo for Preach the Forgotten Sermon Kit 1: Mary of Bethany.",
+        OUT / f"{OUT_PREFIX}-Promo-Square.png",
+        f"{KIT['title'] if KIT else 'What the Room Called Waste'} - Sermon Kit {KIT_NO} Square",
+        f"Square social promo for Preach the Forgotten Sermon Kit {KIT_NO}: {FIGURE}.",
     )
 
 
@@ -319,7 +347,7 @@ def build_quote():
     tracked(draw, "SILENCED SAINTS", font("candarab.ttf", 12), 4, GOLD, (84, 78))
     tracked(
         draw,
-        "SERMON KIT 1",
+        KIT_LABEL,
         font("candara.ttf", 10.5),
         3,
         MUTED,
@@ -339,19 +367,18 @@ def build_quote():
         "center",
     )
 
-    quote_lines = ["The room called it waste.", "Jesus called it beautiful."]
-    size, quote_font = fit(draw, quote_lines, "georgia.ttf", 940, 88, 58)
+    size, quote_font = fit(draw, QUOTE_LINES, "georgia.ttf", 940, 88, 58)
     line_h = int(round(size * 1.2))
     quote_y = 414
-    draw.text((width / 2, quote_y), quote_lines[0], font=quote_font, fill=CREAM, anchor="ma")
-    draw.text((width / 2, quote_y + line_h), quote_lines[1], font=quote_font, fill=CREAM, anchor="ma")
+    draw.text((width / 2, quote_y), QUOTE_LINES[0], font=quote_font, fill=CREAM, anchor="ma")
+    draw.text((width / 2, quote_y + line_h), QUOTE_LINES[1], font=quote_font, fill=CREAM, anchor="ma")
 
     rule_y = quote_y + 2 * line_h + 34
     draw.rectangle([width / 2 - 52, rule_y, width / 2 + 52, rule_y + 2], fill=GOLD)
 
     tracked(
         draw,
-        "WHAT THE ROOM CALLED WASTE",
+        TITLE_LABEL,
         font("candarab.ttf", 12.5),
         3,
         GOLD,
@@ -360,7 +387,7 @@ def build_quote():
     )
     draw.text(
         (width / 2, rule_y + 58),
-        "Mary of Bethany · John 12:1–8",
+        QUOTE_ATTR,
         font=font("candara.ttf", 12),
         fill=MUTED,
         anchor="ma",
@@ -378,17 +405,17 @@ def build_quote():
 
     save(
         canvas,
-        OUT / "Sermon-Kit-1-Promo-Quote.png",
-        "What the Room Called Waste - Quote Card",
-        "Square quote card from Preach the Forgotten Sermon Kit 1: Mary of Bethany.",
+        OUT / f"{OUT_PREFIX}-Promo-Quote.png",
+        f"{KIT['title'] if KIT else 'What the Room Called Waste'} - Quote Card",
+        f"Square quote card from Preach the Forgotten Sermon Kit {KIT_NO}: {FIGURE}.",
     )
 
 
 def build_contact_sheet():
-    cover = Image.open(OUT / "Sermon-Kit-1-Cover.png")
-    title = Image.open(OUT / "Sermon-Kit-1-Promo-Title.png")
-    square = Image.open(OUT / "Sermon-Kit-1-Promo-Square.png")
-    quote = Image.open(OUT / "Sermon-Kit-1-Promo-Quote.png")
+    cover = Image.open(OUT / f"{OUT_PREFIX}-Cover.png")
+    title = Image.open(OUT / f"{OUT_PREFIX}-Promo-Title.png")
+    square = Image.open(OUT / f"{OUT_PREFIX}-Promo-Square.png")
+    quote = Image.open(OUT / f"{OUT_PREFIX}-Promo-Quote.png")
 
     pad = 40
     gap = 28
@@ -411,8 +438,9 @@ def build_contact_sheet():
         quote.resize((quote_h, quote_h), Image.LANCZOS),
         (pad + cell_w + gap + (cell_w - quote_h) // 2, pad + cover_h + gap),
     )
-    sheet.save(QA / "sermon-promo-contact-sheet.png")
-    print(f"sermon-promo-contact-sheet.png: {sheet.width}x{sheet.height}")
+    name = "sermon-promo-contact-sheet.png" if not KIT else f"kit-{KIT_NO:02d}-promo-contact-sheet.png"
+    sheet.save(QA / name)
+    print(f"{name}: {sheet.width}x{sheet.height}")
 
 
 if __name__ == "__main__":
