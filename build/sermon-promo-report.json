@@ -1,0 +1,140 @@
+{
+  "generated_on": "2026-10-18",
+  "status": "pass",
+  "assets": [
+    {
+      "file": "Sermon-Kit-1-Cover.png",
+      "path": "C:\\Users\\NDUYU\\Documents\\Qoder\\2026-10-18\\59c534e6\\assets\\listing\\Sermon-Kit-1-Cover.png",
+      "dimensions": "1600x900",
+      "expected_dimensions": "1600x900",
+      "format": "PNG",
+      "mode": "RGB",
+      "kb": 1110.7,
+      "sha256": "03b2edc2df077da4d8994ddc1fe43acc26621d7749f3133968fae7462e16611c",
+      "intended_use": "Payhip listing hero / product cover",
+      "metadata_title": "What the Room Called Waste - Sermon Kit 1 Cover"
+    },
+    {
+      "file": "Sermon-Kit-1-Promo-Title.png",
+      "path": "C:\\Users\\NDUYU\\Documents\\Qoder\\2026-10-18\\59c534e6\\assets\\listing\\Sermon-Kit-1-Promo-Title.png",
+      "dimensions": "1280x720",
+      "expected_dimensions": "1280x720",
+      "format": "PNG",
+      "mode": "RGB",
+      "kb": 720.6,
+      "sha256": "8135620a850a476a5be89c63ec5c6fd6c0bb7b5c225e5262a2d8ce8b754665ad",
+      "intended_use": "16:9 title card for video, blog header, or email",
+      "metadata_title": "What the Room Called Waste - Sermon Kit 1 Promo"
+    },
+    {
+      "file": "Sermon-Kit-1-Promo-Square.png",
+      "path": "C:\\Users\\NDUYU\\Documents\\Qoder\\2026-10-18\\59c534e6\\assets\\listing\\Sermon-Kit-1-Promo-Square.png",
+      "dimensions": "1080x1080",
+      "expected_dimensions": "1080x1080",
+      "format": "PNG",
+      "mode": "RGB",
+      "kb": 934.4,
+      "sha256": "1025189463f134004a9c3091813fb56877fa62a94025ccd08e81269588eda8db",
+      "intended_use": "Square social feed promo",
+      "metadata_title": "What the Room Called Waste - Sermon Kit 1 Square"
+    },
+    {
+      "file": "Sermon-Kit-1-Promo-Quote.png",
+      "path": "C:\\Users\\NDUYU\\Documents\\Qoder\\2026-10-18\\59c534e6\\assets\\listing\\Sermon-Kit-1-Promo-Quote.png",
+      "dimensions": "1080x1080",
+      "expected_dimensions": "1080x1080",
+      "format": "PNG",
+      "mode": "RGB",
+      "kb": 85.0,
+      "sha256": "412a419ababf713ac669997c38106b1773ff5548c34c4e0290a609135d3d9985",
+      "intended_use": "Square shareable quote card",
+      "metadata_title": "What the Room Called Waste - Quote Card"
+    }
+  ],
+  "text_fit": {
+    "cover_title": {
+      "font_pt_equivalent_px": 96,
+      "max_allowed_px": 720,
+      "line_widths_px": [
+        668,
+        550
+      ],
+      "fits": true
+    },
+    "title_promo_title": {
+      "font_pt_equivalent_px": 76,
+      "max_allowed_px": 600,
+      "line_widths_px": [
+        527,
+        438
+      ],
+      "fits": true
+    },
+    "square_title": {
+      "font_pt_equivalent_px": 66,
+      "max_allowed_px": 940,
+      "line_widths_px": [
+        459,
+        380
+      ],
+      "fits": true
+    },
+    "quote": {
+      "font_pt_equivalent_px": 84,
+      "max_allowed_px": 940,
+      "line_widths_px": [
+        924,
+        889
+      ],
+      "fits": true
+    }
+  },
+  "copy_verification": {
+    "quote": {
+      "text": "The room called it waste. Jesus called it beautiful.",
+      "source_file": "SERMON-WHAT-THE-ROOM-CALLED-WASTE.md",
+      "source_lines": [
+        273,
+        479,
+        481
+      ],
+      "verbatim": true
+    },
+    "runtime": {
+      "claim": "A complete 57-minute sermon",
+      "outline_claim": "57 minutes with a full response; 55\u201360 with normal variation.",
+      "derivation": "6,653-word body at ~125 wpm plus a 4-minute response; outline states 57 minutes.",
+      "consistent": true
+    },
+    "scripture": "John 12:1\u20138 matches the manuscript primary text.",
+    "deck_slide_count": 12,
+    "deck_claim": "12 SLIDES appears on the cover and title promo.",
+    "deck_claim_matches": true,
+    "price_or_discount_text_present": false,
+    "unsupported_claims_present": false
+  },
+  "thumbnails": {
+    "individual": [
+      "build/qa/thumb-cover-320.png",
+      "build/qa/thumb-promo-title-320.png",
+      "build/qa/thumb-promo-square-320.png",
+      "build/qa/thumb-promo-quote-320.png"
+    ],
+    "strip": "build/qa/promo-thumbnails-strip.png",
+    "strip_dimensions": "1400x368",
+    "legibility": "Title, subtitle, series badge, and quote remain legible at 320 px; supporting microcopy is secondary."
+  },
+  "visual_qa": {
+    "quote_overlap_resolved": true,
+    "quote_card_clearance_to_frame_px": 42,
+    "brand_palette": {
+      "navy": "#101b2e",
+      "cream": "#f4ecdc",
+      "gold": "#c8a15e",
+      "muted": "#b8ae9d"
+    },
+    "full_size_reviewed": true,
+    "thumbnail_reviewed": true,
+    "notes": "Quote glyph removed after it collided with the kicker; quote block rebalanced and enlarged. All four assets reviewed full-size and at 320 px."
+  }
+}
