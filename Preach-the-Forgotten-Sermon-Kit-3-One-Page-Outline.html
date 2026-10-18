@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Weightless King — One-page preaching outline</title>
+<style>
+@page {
+  size: Letter;
+  margin: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: #ffffff;
+}
+
+body {
+  font-family: Candara, "Segoe UI", sans-serif;
+  color: #2b2721;
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
+}
+
+.page {
+  width: 8.5in;
+  min-height: 11in;
+  padding: 0.38in 0.5in 0.4in;
+  display: flex;
+  flex-direction: column;
+}
+
+/* ---------- Masthead ---------- */
+
+.masthead {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 18pt;
+  padding-bottom: 4pt;
+  border-bottom: 0.7pt solid #c8a15e;
+}
+
+.brand {
+  font-size: 7.2pt;
+  font-weight: bold;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: #8a6a2f;
+}
+
+.series {
+  font-size: 6.7pt;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #1b2a44;
+  text-align: right;
+}
+
+/* ---------- Heading ---------- */
+
+.heading {
+  margin-top: 9pt;
+}
+
+.kicker {
+  margin: 0 0 3pt;
+  font-size: 6.8pt;
+  font-weight: bold;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: #8a6a2f;
+}
+
+h1 {
+  margin: 0;
+  font-family: Georgia, serif;
+  font-size: 22pt;
+  font-weight: normal;
+  line-height: 1.05;
+  letter-spacing: -0.005em;
+  color: #1b2a44;
+}
+
+.subtitle {
+  margin: 2.5pt 0 0;
+  font-family: Georgia, serif;
+  font-size: 9.8pt;
+  font-style: italic;
+  line-height: 1.25;
+  color: #6a5836;
+}
+
+/* ---------- Meta ---------- */
+
+.meta {
+  margin-top: 7pt;
+  padding: 6pt 9pt;
+  background: #faf6ec;
+  border-left: 2.4pt solid #c8a15e;
+}
+
+.meta p {
+  margin: 0 0 2.5pt;
+  font-size: 8pt;
+  line-height: 1.38;
+  color: #4f483d;
+}
+
+.meta p:last-child {
+  margin-bottom: 0;
+}
+
+.meta strong {
+  font-weight: bold;
+  color: #1b2a44;
+}
+
+/* ---------- Body ---------- */
+
+main.content {
+  margin-top: 7pt;
+}
+
+h2 {
+  margin: 8pt 0 3.5pt;
+  padding-bottom: 2pt;
+  border-bottom: 0.5pt solid #d9c9a8;
+  font-family: Candara, "Segoe UI", sans-serif;
+  font-size: 7.3pt;
+  font-weight: bold;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #1b2a44;
+}
+
+main.content > h2:first-child {
+  margin-top: 0;
+}
+
+p {
+  margin: 0 0 4pt;
+  font-size: 8.7pt;
+  line-height: 1.37;
+}
+
+main.content > p:last-child {
+  margin-bottom: 0;
+}
+
+ul,
+ol {
+  margin: 2pt 0 5pt;
+  padding-left: 14pt;
+}
+
+li {
+  margin: 0 0 2.4pt;
+  font-size: 8.7pt;
+  line-height: 1.34;
+}
+
+li:last-child {
+  margin-bottom: 0;
+}
+
+li strong {
+  color: #1b2a44;
+}
+
+strong {
+  font-weight: bold;
+}
+
+em {
+  font-style: italic;
+}
+
+/* ---------- Outline table ---------- */
+
+table {
+  width: 100%;
+  margin: 2pt 0 4pt;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+
+thead th {
+  padding: 2pt 5pt 2.5pt 0;
+  border-bottom: 0.6pt solid #c8a15e;
+  font-size: 6.5pt;
+  font-weight: bold;
+  letter-spacing: 0.12em;
+  text-align: left;
+  text-transform: uppercase;
+  color: #1b2a44;
+}
+
+tbody td {
+  padding: 3pt 5pt 3pt 0;
+  border-bottom: 0.4pt solid #e6dcc8;
+  font-size: 7.95pt;
+  line-height: 1.3;
+  vertical-align: top;
+  color: #3a342b;
+}
+
+tbody td:first-child {
+  font-weight: bold;
+  color: #8a6a2f;
+}
+
+tbody tr:last-child td {
+  border-bottom: none;
+}
+
+/* ---------- Footer ---------- */
+
+.footer {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 18pt;
+  margin-top: auto;
+  padding-top: 4pt;
+  border-top: 0.5pt solid #d9c9a8;
+  font-size: 6.5pt;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #8a6a2f;
+}
+
+.footer .navy {
+  color: #1b2a44;
+  text-align: right;
+}
+
+</style>
+</head>
+<body>
+<div class="page">
+  <header class="masthead">
+    <span class="brand">Silenced Saints</span>
+    <span class="series">Preach the Forgotten · Sermon Kit 1</span>
+  </header>
+
+  <section class="heading">
+    <p class="kicker">One-page preaching outline</p>
+    <h1>The Weightless King</h1>
+    <p class="subtitle">Belshazzar · Daniel 5:1–31</p>
+  </section>
+
+  <div class="meta">
+<p><strong>Primary text:</strong> Daniel 5:1–31
+<strong>Also read:</strong> Daniel 4:28–37 · Proverbs 16:18 · Isaiah 47:10–11 · Jeremiah 50:29–32 · Luke 12:16–21 · Colossians 2:13–15
+<strong>Big idea:</strong> The king who weighed nothing threw a feast with the vessels of God, and the hand that held his breath wrote his sentence on the wall.
+<strong>Time:</strong> 55–60 minutes, including a 3–5 minute response (6,840 words at about 120 wpm).
+<strong>Aim:</strong> Move the room from admiring the spectacle to feeling the weight of the God who holds our breath, and from buying a verdict to receiving the King who was weighed for us.</p>
+  </div>
+
+  <main class="content">
+<h2>Movement map</h2>
+<table><colgroup><col style="width:0.42in"><col style="width:1.38in"><col style="width:5.6in"></colgroup>
+<thead>
+<tr>
+<th>Min</th>
+<th>Section</th>
+<th>Beats and transition</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>5</td>
+<td><strong>Introduction: The night the music stopped</strong></td>
+<td>“The writing on the wall” has become a business cliché; the original is a party that became an execution. Babylon, 539 BC. A thousand lords, the temple vessels, the hand. The room goes silent. → <em>“Then the room hears something it cannot explain.”</em></td>
+</tr>
+<tr>
+<td>7</td>
+<td><strong>The feast and the vessels</strong></td>
+<td>The feast is political theater. Belshazzar is an heir, not the architect. Wine loosens the brakes; he calls for the Jerusalem vessels and turns the holy into barware. Idolatry uses God’s things for our own glory. → <em>“The question is whether the Holy One has you.”</em></td>
+</tr>
+<tr>
+<td>8</td>
+<td><strong>The hand and the fear</strong></td>
+<td>Fingers write on the plaster, opposite the lampstand. The finger that wrote the law writes the verdict. The king’s color changes, his limbs give way, his knees knock. The experts cannot read it. → <em>“The king’s body knew before his mind did.”</em></td>
+</tr>
+<tr>
+<td>8</td>
+<td><strong>The queen, the prophet, and the refusal</strong></td>
+<td>The queen mother remembers Daniel. The king offers purple, gold, and third place. Daniel refuses: “Let your gifts be for yourself.” He will speak for free. → <em>“The king is trying to buy a verdict already written.”</em></td>
+</tr>
+<tr>
+<td>8</td>
+<td><strong>MENE MENE TEKEL PARSIN</strong></td>
+<td>Daniel starts with history: Nebuchadnezzar was humbled; Belshazzar knew and did not humble himself. Numbered, weighed, divided. The king rewards the messenger but does not repent. → <em>“His last act is not a confession. It is a promotion.”</em></td>
+</tr>
+<tr>
+<td>6</td>
+<td><strong>The night the kingdom fell</strong></td>
+<td>“That very night Belshazzar was killed.” One verse for a funeral. Babylon fell to Cyrus in 539 BC. Darius the Mede receives the kingdom. → <em>“He spends his last night giving away what he does not own.”</em></td>
+</tr>
+<tr>
+<td>7</td>
+<td><strong>Application: What do you do with the weight?</strong></td>
+<td>Stop decorating with the sacred. Read the handwriting you have. Do not buy the verdict. Number your days. → <em>“You cannot purchase the truth. Come empty-handed.”</em></td>
+</tr>
+<tr>
+<td>3</td>
+<td><strong>The invitation</strong></td>
+<td>Two men: the king in purple and the exile who is free. Come to the King who was weighed for you. → <em>“The wall wrote a sentence. The cross wrote a pardon.”</em></td>
+</tr>
+<tr>
+<td>5</td>
+<td><strong>Response and closing</strong></td>
+<td>Silence. Name what you hold that belongs to God. “I have been weighed, and I am wanting.” Then: “But there is a King who was weighed for me.” → <em>“Do not spend your one life decorating the wrong table.”</em></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Total:</strong> 57 minutes with a full response; 55–60 with normal variation.</p>
+<h2>Lines to land</h2>
+<ul>
+<li>“A vessel carries the treasure. A trophy displays the owner.”</li>
+<li>“The legs that carried him to the throne will not carry him now.”</li>
+<li>“Daniel does not refuse to speak. He refuses to be bought.”</li>
+<li>“All the gold in the room had no weight on that scale.”</li>
+<li>“The writing on the wall was a sentence. The writing on the cross is a pardon.”</li>
+</ul>
+<h2>Guardrails</h2>
+<ul>
+<li>Do not cartoon Belshazzar. He is a warned man who knew the family record and refused to humble himself.</li>
+<li>Keep the history honest. Belshazzar was a co-regent; “father” is dynastic language; Darius the Mede’s identity is debated.</li>
+<li>The vessels were holy because God claimed them, not because gold has magic.</li>
+<li>Do not use Daniel’s refusal of gifts to attack all payment for ministry (Luke 10:7; 1 Corinthians 9:14). The point is the price.</li>
+<li>Do not equate the Lord’s Supper with Belshazzar’s feast. Protect the hand, the refusal, the verdict, and the cross.</li>
+</ul>
+<h2>If you must cut</h2>
+<ul>
+<li><strong>To 50 minutes:</strong> Introduction to 4, Movement 1 to 6, Movement 2 to 6, Movement 4 to 7, Application to 6. Keep the vessels, the hand, “weighed and found wanting,” and the gospel turn.</li>
+<li><strong>Never cut:</strong> the hand writing on the wall, Daniel’s refusal, the three words, the death that night, and the cross.</li>
+</ul>
+  </main>
+
+  <footer class="footer">
+    <span>Preach the Forgotten · Sermon Kit 3</span>
+    <span class="navy">One-page outline · Belshazzar</span>
+  </footer>
+</div>
+</body>
+</html>

@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Weightless King — Small-group guide</title>
+<style>
+@page {
+  size: Letter;
+  margin: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: #ffffff;
+}
+
+body {
+  font-family: Candara, "Segoe UI", sans-serif;
+  color: #2b2721;
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
+}
+
+.page {
+  width: 8.5in;
+  min-height: 11in;
+  padding: 0.38in 0.5in 0.4in;
+  display: flex;
+  flex-direction: column;
+}
+
+/* ---------- Masthead ---------- */
+
+.masthead {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 18pt;
+  padding-bottom: 4pt;
+  border-bottom: 0.7pt solid #c8a15e;
+}
+
+.brand {
+  font-size: 7.2pt;
+  font-weight: bold;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: #8a6a2f;
+}
+
+.series {
+  font-size: 6.7pt;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #1b2a44;
+  text-align: right;
+}
+
+/* ---------- Heading ---------- */
+
+.heading {
+  margin-top: 9pt;
+}
+
+.kicker {
+  margin: 0 0 3pt;
+  font-size: 6.8pt;
+  font-weight: bold;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: #8a6a2f;
+}
+
+h1 {
+  margin: 0;
+  font-family: Georgia, serif;
+  font-size: 22pt;
+  font-weight: normal;
+  line-height: 1.05;
+  letter-spacing: -0.005em;
+  color: #1b2a44;
+}
+
+.subtitle {
+  margin: 2.5pt 0 0;
+  font-family: Georgia, serif;
+  font-size: 9.8pt;
+  font-style: italic;
+  line-height: 1.25;
+  color: #6a5836;
+}
+
+/* ---------- Meta ---------- */
+
+.meta {
+  margin-top: 7pt;
+  padding: 6pt 9pt;
+  background: #faf6ec;
+  border-left: 2.4pt solid #c8a15e;
+}
+
+.meta p {
+  margin: 0 0 2.5pt;
+  font-size: 8pt;
+  line-height: 1.38;
+  color: #4f483d;
+}
+
+.meta p:last-child {
+  margin-bottom: 0;
+}
+
+.meta strong {
+  font-weight: bold;
+  color: #1b2a44;
+}
+
+/* ---------- Body ---------- */
+
+main.content {
+  margin-top: 7pt;
+}
+
+h2 {
+  margin: 8pt 0 3.5pt;
+  padding-bottom: 2pt;
+  border-bottom: 0.5pt solid #d9c9a8;
+  font-family: Candara, "Segoe UI", sans-serif;
+  font-size: 7.3pt;
+  font-weight: bold;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #1b2a44;
+}
+
+main.content > h2:first-child {
+  margin-top: 0;
+}
+
+p {
+  margin: 0 0 4pt;
+  font-size: 8.7pt;
+  line-height: 1.37;
+}
+
+main.content > p:last-child {
+  margin-bottom: 0;
+}
+
+ul,
+ol {
+  margin: 2pt 0 5pt;
+  padding-left: 14pt;
+}
+
+li {
+  margin: 0 0 2.4pt;
+  font-size: 8.7pt;
+  line-height: 1.34;
+}
+
+li:last-child {
+  margin-bottom: 0;
+}
+
+li strong {
+  color: #1b2a44;
+}
+
+strong {
+  font-weight: bold;
+}
+
+em {
+  font-style: italic;
+}
+
+/* ---------- Outline table ---------- */
+
+table {
+  width: 100%;
+  margin: 2pt 0 4pt;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+
+thead th {
+  padding: 2pt 5pt 2.5pt 0;
+  border-bottom: 0.6pt solid #c8a15e;
+  font-size: 6.5pt;
+  font-weight: bold;
+  letter-spacing: 0.12em;
+  text-align: left;
+  text-transform: uppercase;
+  color: #1b2a44;
+}
+
+tbody td {
+  padding: 3pt 5pt 3pt 0;
+  border-bottom: 0.4pt solid #e6dcc8;
+  font-size: 7.95pt;
+  line-height: 1.3;
+  vertical-align: top;
+  color: #3a342b;
+}
+
+tbody td:first-child {
+  font-weight: bold;
+  color: #8a6a2f;
+}
+
+tbody tr:last-child td {
+  border-bottom: none;
+}
+
+/* ---------- Footer ---------- */
+
+.footer {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 18pt;
+  margin-top: auto;
+  padding-top: 4pt;
+  border-top: 0.5pt solid #d9c9a8;
+  font-size: 6.5pt;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #8a6a2f;
+}
+
+.footer .navy {
+  color: #1b2a44;
+  text-align: right;
+}
+
+</style>
+</head>
+<body>
+<div class="page">
+  <header class="masthead">
+    <span class="brand">Silenced Saints</span>
+    <span class="series">Preach the Forgotten · Sermon Kit 1</span>
+  </header>
+
+  <section class="heading">
+    <p class="kicker">Small-group guide</p>
+    <h1>The Weightless King</h1>
+    <p class="subtitle">Belshazzar · Daniel 5:1–31</p>
+  </section>
+
+  <div class="meta">
+<p><strong>Text:</strong> Daniel 5:1–31 (with Daniel 4:28–37; Proverbs 16:18; Luke 12:16–21; Colossians 2:13–15)
+<strong>Big idea:</strong> The king who weighed nothing threw a feast with the vessels of God, and the hand that held his breath wrote his sentence on the wall.
+<strong>Time:</strong> 60–75 minutes</p>
+<p><strong>Before you meet.</strong> Read Daniel 5 twice: once for the story, once with a pen. Mark the vessels, the hand, the king’s body, Daniel’s refusal, and the three words. Read Daniel 4:28–37 to see what Belshazzar already knew.</p>
+  </div>
+
+  <main class="content">
+<h2>Open (5 minutes)</h2>
+<p>Pray. Read Daniel 5:1–12 aloud. Ask: “What would you have seen, heard, or smelled in that room?”</p>
+<h2>Observe (15 minutes)</h2>
+<ol>
+<li><strong>The feast.</strong> Who is in the room, and what are they doing (Daniel 5:1–4)? Why does Belshazzar call for the Jerusalem vessels?</li>
+<li><strong>The hand.</strong> What does the text say about the writing and the king’s reaction (Daniel 5:5–9)? Why can none of the wise men read it?</li>
+</ol>
+
+<h2>Interpret (20 minutes)</h2>
+<ol start="3">
+<li><strong>The queen and Daniel.</strong> What does the queen remember that the king has forgotten (Daniel 5:10–16)? Why does Daniel refuse the reward (5:17)? What is the difference between being paid and being bought?</li>
+<li><strong>“You knew all this.”</strong> What did Belshazzar know (5:22)? How can a person know the truth and still not be changed by it?</li>
+<li><strong>Numbered, weighed, divided.</strong> Read Daniel 5:23–28 slowly. What does each word mean? Why is “found wanting” different from “you did bad things”?</li>
+<li><strong>The last night.</strong> What does Belshazzar do after hearing the sentence (5:29)? Where does the story leave Daniel?</li>
+</ol>
+
+<h2>Apply (20 minutes)</h2>
+<ol start="7">
+<li><strong>The sacred as decoration.</strong> Where are we tempted to use God’s things—Scripture, worship, the Supper, people—to decorate our own image? Name one concrete example.</li>
+<li><strong>The handwriting you have.</strong> What warning, pattern, or conviction have you been walking past? What would it look like to read it while there is time—and to come to the King who was weighed for you instead of trying to buy a verdict?</li>
+</ol>
+
+<h2>Close (5 minutes)</h2>
+<p>Invite each person to write down one thing they are holding that belongs to God, and one sentence they will pray about it this week. No one has to report it.</p>
+<p>Pray: “Lord God, you hold our breath in your hand. You number our days and weigh our lives. Forgive us for decorating our lives with what belongs to you. Thank you that you sent your Son to stand in the balances for us. Teach us to number our days, to tell the truth for free, and to come to you empty-handed. Amen.”</p>
+<p>Remind them: the invitation is not “be good enough to be weighed.” It is “come to the King who was weighed for you.”</p>
+<h2>Leader notes</h2>
+<ul>
+<li><strong>The feast and the vessels.</strong> The vessels were holy because God set them apart, not because gold is magical. Belshazzar’s sin is treating the worship of God as a trophy. Keep the application about reverence and ownership.</li>
+<li><strong>The handwriting.</strong> The wise men could read the letters but not the meaning. Do not turn this into a puzzle; God’s verdict is not available on Babylon’s terms.</li>
+<li><strong>The queen and Daniel.</strong> The queen is unnamed; most take her to be the queen mother. Daniel’s refusal is about the price of the message, not the legitimacy of paying ministers (Luke 10:7; 1 Corinthians 9:14).</li>
+<li><strong>“You knew all this.”</strong> This is the pastoral heart. Many group members grew up with the truth. The danger is familiarity without obedience. Ask gently; do not shame.</li>
+<li><strong>Weighed and found wanting.</strong> Law and gospel must both be heard. The verdict is real; Christ was weighed in our place. Do not end on “try harder.”</li>
+<li><strong>The history.</strong> Belshazzar was a co-regent; “father” is dynastic language; Darius the Mede’s identity is debated. Babylon fell to Cyrus in 539 BC.</li>
+<li><strong>The gospel.</strong> Colossians 2:13–15 is the proper end: the record of debt against us was canceled and nailed to the cross. The “handwriting” connection is thematic, not a direct quotation of Daniel 5.</li>
+<li><strong>The Lord’s Supper.</strong> If your group shares communion, do not equate the cup with Belshazzar’s vessels. The comparison is about reverence and self-examination (1 Corinthians 11:27–29).</li>
+</ul>
+  </main>
+
+  <footer class="footer">
+    <span>Preach the Forgotten · Sermon Kit 3</span>
+    <span class="navy">Small-group guide · Belshazzar</span>
+  </footer>
+</div>
+</body>
+</html>

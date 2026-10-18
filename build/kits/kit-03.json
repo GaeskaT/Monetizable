@@ -1,0 +1,416 @@
+{
+  "kit": 3,
+  "figure": "Belshazzar",
+  "title": "The Weightless King",
+  "subtitle": "A sermon on Belshazzar",
+  "primary_text": "Daniel 5:1–31",
+  "also_read": "Daniel 4:28–37; Proverbs 16:18; Isaiah 47:10–11; Jeremiah 50:29–32; Luke 12:16–21; Colossians 2:13–15",
+  "big_idea": "The king who weighed nothing threw a feast with the vessels of God, and the hand that held his breath wrote his sentence on the wall.",
+  "time": "50–60 minutes, including a 3–5 minute response.",
+  "prefix": "Preach-the-Forgotten-Sermon-Kit-3",
+  "deck_stem": "Sermon-Kit-3-The-Weightless-King",
+  "source_manuscript": "SERMON-THE-WEIGHTLESS-KING.md",
+  "source_outline": "SERMON-OUTLINE-THE-WEIGHTLESS-KING.md",
+  "source_guide": "SERMON-SMALL-GROUP-GUIDE-THE-WEIGHTLESS-KING.md",
+  "display_lines": [
+    "The Weightless",
+    "King"
+  ],
+  "header_title": "The Weightless King",
+  "header_right": "Belshazzar · Sermon Kit 3",
+  "footer_left": "PREACH THE FORGOTTEN · SERMON KIT 3",
+  "footer_left_short": "Preach the Forgotten · Sermon Kit 3",
+  "onepager_keywords": "Belshazzar, Daniel 5, writing on the wall, weighed and found wanting, Preach the Forgotten, Sermon Kit 3, Silenced Saints",
+  "masthead_right": "PREACH THE FORGOTTEN · SERMON KIT 3",
+  "prop_title": "The Weightless King - Preaching Manuscript",
+  "prop_subject": "Sermon manuscript for Belshazzar, Sermon Kit 3",
+  "keywords": "Belshazzar, Daniel 5, writing on the wall, weighed and found wanting, Preach the Forgotten, Sermon Kit 3, preaching manuscript, Silenced Saints",
+  "comments": "Editable preaching manuscript. ESV quotations. One-page outline and small-group guide sold separately in Sermon Kit 3.",
+  "manuscript_required": [
+    "The Weightless King",
+    "A sermon on Belshazzar",
+    "PRIMARY TEXT",
+    "Daniel 5:1–31",
+    "Introduction: The night the music stopped",
+    "Movement 1: The feast and the vessels",
+    "Movement 2: The hand and the fear",
+    "Movement 3: The queen, the prophet, and the refusal",
+    "Movement 4: MENE MENE TEKEL PARSIN",
+    "Movement 5: The night the kingdom fell",
+    "Application: What do you do with the weight?",
+    "1. Stop decorating with the sacred",
+    "2. Read the handwriting you already have",
+    "3. Do not try to buy the verdict",
+    "4. Number your days",
+    "The invitation",
+    "Response",
+    "Closing",
+    "Evidence note for the preacher",
+    "The writing on the wall was a sentence. The writing on the cross is a pardon.",
+    "Scripture quotations are ESV."
+  ],
+  "outline_subtitle": "Belshazzar · Daniel 5:1–31",
+  "outline_footer_right": "One-page outline · Belshazzar",
+  "outline_pdf_title": "The Weightless King - One-Page Preaching Outline",
+  "outline_required": [
+    "The Weightless King",
+    "One-page preaching outline",
+    "Primary text:",
+    "Movement map",
+    "Introduction: The night the music stopped",
+    "The feast and the vessels",
+    "The hand and the fear",
+    "The queen, the prophet, and the refusal",
+    "MENE MENE TEKEL PARSIN",
+    "The night the kingdom fell",
+    "Application: What do you do with the weight?",
+    "The invitation",
+    "Response and closing",
+    "Lines to land",
+    "Guardrails",
+    "If you must cut",
+    "The writing on the wall was a sentence. The writing on the cross is a pardon.",
+    "57 minutes"
+  ],
+  "guide_subtitle": "Belshazzar · Daniel 5:1–31",
+  "guide_footer_right": "Small-group guide · Belshazzar",
+  "guide_pdf_title": "The Weightless King - Small-Group Guide",
+  "guide_required": [
+    "The Weightless King",
+    "Small-group guide",
+    "Daniel 5:1–31",
+    "Before you meet",
+    "Open",
+    "Observe",
+    "Interpret",
+    "Apply",
+    "Close",
+    "Leader notes",
+    "The feast and the vessels",
+    "The handwriting",
+    "The queen and Daniel",
+    "You knew all this",
+    "Weighed and found wanting",
+    "The gospel",
+    "The Lord’s Supper",
+    "come to the King who was weighed for you"
+  ],
+  "quote": "The writing on the wall was a sentence. The writing on the cross is a pardon.",
+  "quote_lines": [
+    "A sentence on the wall.",
+    "A pardon on the cross."
+  ],
+  "quote_attribution": "Belshazzar · Daniel 5:1–31",
+  "cover_art": "assets/cover-kit-03.png",
+  "cover_run": "A complete 57-minute sermon",
+  "promo_subtitle": "Belshazzar · Daniel 5:1–31",
+  "cover_lines": [
+    "The Weightless",
+    "King"
+  ],
+  "license_title": "The Weightless King",
+  "license_kicker": "Sermon Kit 3",
+  "start_here_body": "The Weightless King",
+  "start_here_figure": "Belshazzar",
+  "start_here_stem": "Preach-the-Forgotten-Sermon-Kit-3-Start-Here",
+  "start_here_words": "6,840",
+  "start_here_minutes": "57",
+  "start_here_rows": [
+    [
+      "5",
+      "Introduction: The night the music stopped"
+    ],
+    [
+      "7",
+      "The feast and the vessels"
+    ],
+    [
+      "8",
+      "The hand and the fear"
+    ],
+    [
+      "8",
+      "The queen, the prophet, and the refusal"
+    ],
+    [
+      "8",
+      "MENE MENE TEKEL PARSIN"
+    ],
+    [
+      "6",
+      "The night the kingdom fell"
+    ],
+    [
+      "7",
+      "Application: What do you do with the weight?"
+    ],
+    [
+      "3",
+      "The invitation"
+    ],
+    [
+      "5",
+      "Response and closing"
+    ]
+  ],
+  "start_here_runtime": "<strong>57 minutes</strong> with the full response; 55–60 with normal variation. The manuscript is 6,840 words at about 120 words per minute.",
+  "start_here_cut": "<strong>If you have 50 minutes:</strong> Introduction to 4, Movement 1 to 6, Movement 2 to 6, Movement 4 to 7, Application to 6. Keep the vessels, the hand, “weighed and found wanting,” and the gospel turn. Never cut the hand writing, Daniel’s refusal, or the cross.",
+  "start_here_guardrails": [
+    "Do not cartoon Belshazzar. He is a warned man who knew the family record and refused to humble himself.",
+    "Keep the history honest: Belshazzar was a co-regent, “father” is dynastic language, and Darius the Mede’s identity is debated.",
+    "The temple vessels were holy because God claimed them, not because gold has magic.",
+    "Do not use Daniel’s refusal of gifts to attack all payment for ministry; the point is the price, not the salary.",
+    "Do not equate the Lord’s Supper with Belshazzar’s feast. Protect the hand, the refusal, the verdict, and the cross."
+  ],
+  "start_here_evidence": "The co-regency of Belshazzar, the temple vessels, the handwriting, and the fall of Babylon to Cyrus in 539 BC are doing theological work.",
+  "start_here_required": [
+    "weighed and found wanting",
+    "the vessels",
+    "Babylon to Cyrus in 539 BC"
+  ],
+  "zip_stem": "Preach-the-Forgotten-Sermon-Kit-3-Belshazzar",
+  "manuscript_pages": 19,
+  "deck": {
+    "slides": [
+      {
+        "layout": "title",
+        "kicker": "PREACH THE FORGOTTEN · SERMON KIT 3",
+        "title_lines": [
+          "The Weightless",
+          "King"
+        ],
+        "figure": "Belshazzar",
+        "text": "Daniel 5:1–31",
+        "run": "A SERMON FOR THE PULPIT · 55–60 MINUTES"
+      },
+      {
+        "layout": "idea",
+        "label": "01 · THE BIG IDEA",
+        "ref": "DANIEL 5:1–31",
+        "lines": [
+          "A king held the vessels of God.",
+          "The God who held his breath",
+          "wrote the sentence."
+        ],
+        "note": "The room was full of gold. The scale was empty."
+      },
+      {
+        "layout": "columns",
+        "label": "02 · THE FEAST",
+        "ref": "DANIEL 5:1–4",
+        "headline": "A party with God’s cups.",
+        "name_size": 28,
+        "columns": [
+          {
+            "num": "I",
+            "name": "The king",
+            "desc": [
+              "A host with",
+              "something to prove."
+            ]
+          },
+          {
+            "num": "II",
+            "name": "The lords",
+            "desc": [
+              "A thousand witnesses.",
+              "No one tells the truth."
+            ]
+          },
+          {
+            "num": "III",
+            "name": "The vessels",
+            "desc": [
+              "Holy cups",
+              "turned to barware."
+            ]
+          },
+          {
+            "num": "IV",
+            "name": "The gods",
+            "desc": [
+              "Gold, silver, wood.",
+              "They cannot see."
+            ]
+          }
+        ],
+        "panel": [
+          "A vessel carries the treasure.",
+          "A trophy displays the owner."
+        ],
+        "kicker": "The sacred became decoration."
+      },
+      {
+        "layout": "three",
+        "label": "03 · THE HAND",
+        "ref": "DANIEL 5:5–6",
+        "headline": "The room went silent.",
+        "headline_size": 40,
+        "columns": [
+          {
+            "num": "I",
+            "ref": "DANIEL 5:5",
+            "lines": [
+              "A human hand.",
+              "No warning."
+            ],
+            "note": "The God who is spirit writes with fingers."
+          },
+          {
+            "num": "II",
+            "ref": "DANIEL 5:5",
+            "lines": [
+              "Opposite",
+              "the lampstand."
+            ],
+            "note": "In the light, where no one could miss it."
+          },
+          {
+            "num": "III",
+            "ref": "DANIEL 5:6",
+            "lines": [
+              "His color",
+              "drained."
+            ],
+            "note": "The king’s body preached the truth."
+          }
+        ],
+        "panel": [
+          "The room that owned the night",
+          "could not hold its king upright."
+        ]
+      },
+      {
+        "layout": "stat",
+        "label": "04 · THE VERDICT",
+        "ref": "DANIEL 5:27",
+        "headline": "The scale no gold could tip.",
+        "big": "TEKEL",
+        "big_size": 92,
+        "big_label": "weighed",
+        "big_sub": "and found wanting",
+        "body": "The king had a thousand lords, the temple’s gold, and a title. On God’s scale, none of it had weight. The verdict was not “try harder.” It was “found wanting.”",
+        "pullquote": "All the gold in the room had no weight on that scale.",
+        "footline": "The sentence was already written before the king knew his name was in it."
+      },
+      {
+        "layout": "objection",
+        "label": "05 · THE REFUSAL",
+        "ref": "DANIEL 5:17",
+        "headline": "The prophet would not be bought.",
+        "quote": "“Let your gifts be for yourself... Nevertheless, I will read the writing.”",
+        "quote_ref": "DANIEL 5:17",
+        "aside1": "He refused the reward, not the task.",
+        "aside2": "The word of God is not a product. The prophet is not a performer.",
+        "box1": {
+          "label": "THE KING",
+          "big": "PURPLE",
+          "sub": "a price for the truth"
+        },
+        "box2": {
+          "label": "DANIEL",
+          "big": "FREE",
+          "sub": "nothing left to lose"
+        },
+        "footline": "“Let your gifts be for yourself.” — Daniel 5:17"
+      },
+      {
+        "layout": "verdict",
+        "label": "06 · THE NIGHT",
+        "ref": "DANIEL 5:30",
+        "line1": "That very night",
+        "line2": "the king was killed.",
+        "footline": "One verse for a funeral."
+      },
+      {
+        "layout": "scripture",
+        "label": "07 · THE GOSPEL",
+        "ref": "COLOSSIANS 2:14",
+        "banner_main": "“This he set aside, nailing it to the cross.”",
+        "banner_size": 38,
+        "banner_sub": "COLOSSIANS 2:14",
+        "lines": [
+          "The sentence we deserved fell on him.",
+          "The verdict was not canceled; it was carried."
+        ],
+        "footline": "The writing on the wall was a sentence. The writing on the cross is a pardon."
+      },
+      {
+        "layout": "gospel",
+        "label": "08 · THE TRUE KING",
+        "ref": "2 CORINTHIANS 5:21",
+        "banner_main": "“For our sake he made him to be sin who knew no sin.”",
+        "banner_size": 34,
+        "banner_sub": "2 CORINTHIANS 5:21",
+        "lines": [
+          "The King who had all weight became weightless for us.",
+          "In him, we are found."
+        ],
+        "footline": "The scale did not go away. It went to the cross."
+      },
+      {
+        "layout": "response",
+        "label": "09 · THE RESPONSE",
+        "ref": "FOUR RESPONSES",
+        "headline": "What do you do with the weight?",
+        "items": [
+          {
+            "num": "01",
+            "title": [
+              "Stop decorating",
+              "with the sacred."
+            ],
+            "desc": "The vessels were holy. The party was not. Do not use God’s things for your own glory."
+          },
+          {
+            "num": "02",
+            "title": [
+              "Read the",
+              "handwriting."
+            ],
+            "desc": "You already have warnings, Scripture, and consequences. Do not wait for a hand on the wall."
+          },
+          {
+            "num": "03",
+            "title": [
+              "Do not buy",
+              "the verdict."
+            ],
+            "desc": "Purple and gold cannot purchase truth. Come empty-handed."
+          },
+          {
+            "num": "04",
+            "title": [
+              "Number",
+              "your days."
+            ],
+            "desc": "The party is not forever. Wisdom weighs the time it has."
+          }
+        ],
+        "footline": "The scale is not your neighbor’s life. It is the glory of God."
+      },
+      {
+        "layout": "invitation",
+        "label": "10 · THE INVITATION",
+        "ref": "DANIEL 5:23",
+        "big": "Come empty-handed.",
+        "line1": "Not clean up the party. Not buy the sentence. Come.",
+        "lines": [
+          "The writing on the wall was a sentence.",
+          "The writing on the cross is a pardon."
+        ]
+      },
+      {
+        "layout": "closing",
+        "kicker": "SILENCED SAINTS · PREACH THE FORGOTTEN · SERMON KIT 3",
+        "lines": [
+          "The writing on the wall",
+          "was a sentence."
+        ],
+        "line2": "The writing on the cross is a pardon.",
+        "body": "Do not spend your one life decorating the wrong table."
+      }
+    ]
+  },
+  "listing_title": "The Weightless King — Sermon Kit 3: Belshazzar"
+}

@@ -1,0 +1,26 @@
+{
+  "file": "C:\\Users\\NDUYU\\Documents\\Qoder\\2026-10-18\\59c534e6\\Preach-the-Forgotten-Sermon-Kit-3-Start-Here.pdf",
+  "html": "C:\\Users\\NDUYU\\Documents\\Qoder\\2026-10-18\\59c534e6\\Preach-the-Forgotten-Sermon-Kit-3-Start-Here.html",
+  "delivery": "C:\\Users\\NDUYU\\Documents\\Qoder\\2026-10-18\\59c534e6\\delivery\\Preach-the-Forgotten-Sermon-Kit-3-Start-Here.pdf",
+  "pages": 1,
+  "page_size": [
+    612,
+    792
+  ],
+  "words": 772,
+  "fonts": [
+    "AAAAAA+Candara-Bold",
+    "BAAAAA+Candara",
+    "CAAAAA+Georgia",
+    "DAAAAA+Georgia-Italic"
+  ],
+  "max_text_y": 763.7,
+  "text_bounds_x": [
+    36.0,
+    575.5
+  ],
+  "preview": "C:\\Users\\NDUYU\\Documents\\Qoder\\2026-10-18\\59c534e6\\build\\qa\\kit-03-start-here.png",
+  "pdf_kb": 95.9,
+  "html_kb": 13.9,
+  "status": "passed"
+}
