@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Preach the Forgotten - Sermon Kit 4 - Preaching License</title>
+<style>
+@page {
+  size: Letter;
+  margin: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: #ffffff;
+}
+
+body {
+  font-family: Georgia, "Times New Roman", serif;
+  color: #23201b;
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
+}
+
+.page {
+  position: relative;
+  width: 8.5in;
+  height: 11in;
+  overflow: hidden;
+}
+
+.frame {
+  position: absolute;
+  inset: 0.36in;
+  display: flex;
+  flex-direction: column;
+  padding: 0.46in 0.55in 0.38in;
+  border: 0.9pt solid #b98f4e;
+}
+
+.frame::before {
+  content: "";
+  position: absolute;
+  inset: 5pt;
+  border: 0.4pt solid #d9c9a8;
+  pointer-events: none;
+}
+
+/* ---------- Masthead ---------- */
+
+.masthead {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  padding-bottom: 7pt;
+  border-bottom: 0.5pt solid #d9c9a8;
+}
+
+.brand {
+  font-family: Candara, "Segoe UI", sans-serif;
+  font-size: 8pt;
+  font-weight: bold;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: #8a6a2f;
+}
+
+.series {
+  font-family: Candara, "Segoe UI", sans-serif;
+  font-size: 7.2pt;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+  color: #1b2a44;
+}
+
+/* ---------- Certificate heading ---------- */
+
+.certificate {
+  padding-top: 28pt;
+  text-align: center;
+}
+
+.kicker {
+  margin: 0 0 9pt;
+  font-family: Candara, "Segoe UI", sans-serif;
+  font-size: 8.2pt;
+  font-weight: bold;
+  letter-spacing: 0.24em;
+  text-transform: uppercase;
+  color: #8a6a2f;
+}
+
+h1 {
+  margin: 0;
+  font-family: Georgia, serif;
+  font-size: 44pt;
+  font-weight: normal;
+  line-height: 1.02;
+  letter-spacing: -0.01em;
+  color: #1b2a44;
+}
+
+.subtitle {
+  margin: 8pt 0 0;
+  font-family: Georgia, serif;
+  font-size: 15pt;
+  font-style: italic;
+  line-height: 1.3;
+  color: #6a5836;
+}
+
+.title-rule {
+  width: 1.25in;
+  margin: 15pt auto 14pt;
+  border-top: 2pt solid #b98f4e;
+}
+
+.intro {
+  max-width: 5.35in;
+  margin: 0 auto;
+  font-size: 10pt;
+  line-height: 1.5;
+  text-align: center;
+  color: #4f483d;
+}
+
+.intro em {
+  font-style: italic;
+}
+
+/* ---------- License fields ---------- */
+
+.fields {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8pt 26pt;
+  margin-top: 21pt;
+  padding: 12pt 16pt 9pt;
+  background: #faf6ec;
+  border-left: 3pt solid #b98f4e;
+  text-align: left;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 3pt;
+}
+
+.field.full {
+  grid-column: 1 / -1;
+}
+
+.label {
+  font-family: Candara, "Segoe UI", sans-serif;
+  font-size: 7pt;
+  font-weight: bold;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: #8a6a2f;
+}
+
+.line {
+  height: 15pt;
+  border-bottom: 0.6pt solid #b9a98a;
+}
+
+/* ---------- Grant ---------- */
+
+.grant {
+  margin-top: 17pt;
+  text-align: left;
+}
+
+h2 {
+  margin: 0 0 6pt;
+  padding-bottom: 4pt;
+  border-bottom: 0.55pt solid #d9c9a8;
+  font-family: Candara, "Segoe UI", sans-serif;
+  font-size: 7.8pt;
+  font-weight: bold;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: #1b2a44;
+}
+
+.grant p {
+  margin: 0;
+  font-size: 9.4pt;
+  line-height: 1.48;
+  text-align: left;
+  color: #2f2a23;
+}
+
+/* ---------- Terms ---------- */
+
+.terms {
+  width: 100%;
+  margin-top: 15pt;
+  border-top: 0.55pt solid #d9c9a8;
+  border-bottom: 0.55pt solid #d9c9a8;
+  border-collapse: collapse;
+  table-layout: fixed;
+  text-align: left;
+}
+
+.term {
+  width: 50%;
+  padding: 10pt 14pt 9pt;
+  vertical-align: top;
+}
+
+.term:first-child {
+  padding-left: 0;
+}
+
+.term:last-child {
+  padding-right: 0;
+  border-left: 0.55pt solid #d9c9a8;
+}
+
+.term h2 {
+  margin-bottom: 6pt;
+  padding-bottom: 0;
+  border-bottom: none;
+}
+
+.term ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.term li {
+  margin: 0 0 4pt;
+  padding-left: 13pt;
+  font-size: 8.8pt;
+  line-height: 1.38;
+  text-align: left;
+  color: #3a342b;
+  background-repeat: no-repeat;
+}
+
+.term li:last-child {
+  margin-bottom: 0;
+}
+
+.allowed li {
+  background-image: linear-gradient(#b98f4e, #b98f4e);
+  background-size: 6pt 0.8pt;
+  background-position: 0 0.63em;
+}
+
+.denied li {
+  background-image:
+    linear-gradient(45deg, transparent 44%, #8a6a2f 44%, #8a6a2f 56%, transparent 56%),
+    linear-gradient(-45deg, transparent 44%, #8a6a2f 44%, #8a6a2f 56%, transparent 56%);
+  background-size: 6pt 6pt;
+  background-position: 0 0.3em;
+}
+
+/* ---------- Closing ---------- */
+
+.closing {
+  max-width: 5.8in;
+  margin: 13pt auto 0;
+  font-size: 9.4pt;
+  font-style: italic;
+  line-height: 1.5;
+  text-align: center;
+  color: #4f483d;
+}
+
+.closing strong {
+  font-weight: normal;
+  color: #1b2a44;
+}
+
+/* ---------- Footer ---------- */
+
+.footer {
+  display: flex;
+  align-items: center;
+  gap: 12pt;
+  margin-top: auto;
+  padding-top: 9pt;
+  border-top: 0.5pt solid #d9c9a8;
+}
+
+.seal {
+  display: flex;
+  flex: none;
+  align-items: center;
+  justify-content: center;
+  width: 0.42in;
+  height: 0.42in;
+  border: 0.8pt solid #b98f4e;
+  border-radius: 50%;
+  box-shadow: inset 0 0 0 2.5pt #ffffff, inset 0 0 0 3.3pt #d9c9a8;
+}
+
+.seal span {
+  font-family: Georgia, serif;
+  font-size: 11pt;
+  letter-spacing: 0.02em;
+  color: #1b2a44;
+}
+
+.footer-copy {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 2pt;
+  font-family: Candara, "Segoe UI", sans-serif;
+  font-size: 7.2pt;
+  line-height: 1.35;
+  color: #6a5836;
+}
+
+.footer-strong {
+  font-weight: bold;
+  letter-spacing: 0.04em;
+  color: #1b2a44;
+}
+
+.footer-meta {
+  margin-left: auto;
+  font-family: Candara, "Segoe UI", sans-serif;
+  font-size: 7pt;
+  line-height: 1.4;
+  letter-spacing: 0.08em;
+  text-align: right;
+  text-transform: uppercase;
+  color: #8a6a2f;
+}
+
+</style>
+<style>
+  /* Slightly tighter vertical rhythm than the Church License: the preaching
+     grant carries one more permitted use and a longer grant paragraph. */
+  .certificate {
+    padding-top: 20pt;
+  }
+
+  h1 {
+    font-size: 43pt;
+  }
+
+  .title-rule {
+    margin: 12pt auto 12pt;
+  }
+
+  .intro {
+    max-width: 5.5in;
+  }
+
+  .fields {
+    margin-top: 15pt;
+    padding: 10pt 16pt 7pt;
+  }
+
+  .grant {
+    margin-top: 13pt;
+  }
+
+  .terms {
+    margin-top: 11pt;
+  }
+
+  .term {
+    padding-top: 8pt;
+    padding-bottom: 7pt;
+  }
+
+  .term li {
+    margin-bottom: 3.3pt;
+  }
+
+  .closing {
+    margin-top: 10pt;
+  }
+</style>
+</head>
+<body>
+<div class="page">
+  <div class="frame">
+    <header class="masthead">
+      <span class="brand">Silenced Saints</span>
+      <span class="series">Preach the Forgotten · Sermon Kit 4</span>
+    </header>
+
+    <main class="certificate">
+      <p class="kicker">Certificate of License</p>
+      <h1>Preaching License</h1>
+      <p class="subtitle">Permission to preach, edit, and record.</p>
+      <div class="title-rule"></div>
+      <p class="intro">This license grants the preacher and church named below the right to use <em>Sermon Kit 4: Samson</em> — the manuscript <em>The Man Who Pulled Down the House</em>, the outline, and the small-group guide — in one congregation or campus.</p>
+
+      <section class="fields">
+        <div class="field full">
+          <span class="label">Licensed to</span>
+          <span class="line"></span>
+        </div>
+        <div class="field full">
+          <span class="label">Church / campus</span>
+          <span class="line"></span>
+        </div>
+        <div class="field">
+          <span class="label">Order number</span>
+          <span class="line"></span>
+        </div>
+        <div class="field">
+          <span class="label">Date</span>
+          <span class="line"></span>
+        </div>
+      </section>
+
+      <section class="grant">
+        <h2>The grant</h2>
+        <p>The purchaser is granted a non-exclusive, non-transferable, perpetual license to preach and teach <em>The Man Who Pulled Down the House</em> in one congregation or campus, as often as desired. You may edit the manuscript for local context and your own voice, record and stream the sermon as part of your congregation's normal services, and print the outline and small-group guide for your preaching team and groups. Your edits are yours; the underlying manuscript remains the property of Silenced Saints. No attribution is required.</p>
+      </section>
+
+      <table class="terms" role="presentation">
+        <tr>
+          <td class="term">
+            <h2>Permitted</h2>
+            <ul class="allowed">
+              <li>Preaching and teaching the sermon in one congregation or campus, as often as you like.</li>
+              <li>Editing the manuscript for local context and your own voice.</li>
+              <li>Recording and streaming the sermon as part of normal services.</li>
+              <li>Printing the outline and small-group guide for your preaching team and groups.</li>
+              <li>Keeping the files on your church's private, access-controlled system.</li>
+            </ul>
+          </td>
+          <td class="term">
+            <h2>Not permitted</h2>
+            <ul class="denied">
+              <li>Sharing the files with preachers outside your congregation.</li>
+              <li>Posting the manuscript publicly or selling it.</li>
+              <li>Republishing the manuscript as a standalone work, edited or not.</li>
+              <li>Using one license across multiple campuses.</li>
+              <li>Using the material at a paid conference or event without written permission.</li>
+            </ul>
+          </td>
+        </tr>
+      </table>
+
+      <p class="closing"><strong>One license covers one congregation or campus.</strong> Multi-campus, paid-event, and publishing use require written permission. This license does not expire.</p>
+    </main>
+
+    <footer class="footer">
+      <div class="seal" aria-hidden="true"><span>PF</span></div>
+      <div class="footer-copy">
+        <span class="footer-strong">Issued electronically by Silenced Saints.</span>
+        <span>Valid without a signature. Copyright 2026 Silenced Saints. All rights reserved.</span>
+      </div>
+      <div class="footer-meta">Sermon Kit 4<br>First edition, October 2026</div>
+    </footer>
+  </div>
+</div>
+</body>
+</html>

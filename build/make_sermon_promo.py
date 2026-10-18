@@ -144,12 +144,14 @@ def build_cover():
     tracked(draw, "PREACH THE FORGOTTEN", font("candara.ttf", 11.5), 4, MUTED, (84, 88))
     tracked(draw, "A SERMON FOR THE PULPIT", font("candarab.ttf", 13.5), 5, GOLD, (84, 180))
 
-    size, title_font = fit(draw, TITLE_LINES, "georgia.ttf", 720, 96, 72)
+    count = len(TITLE_LINES)
+    start, minimum = (96, 72) if count <= 2 else (84, 64)
+    size, title_font = fit(draw, TITLE_LINES, "georgia.ttf", 720, start, minimum)
     line_h = int(round(size * 1.1))
-    draw.text((84, 222), TITLE_LINES[0], font=title_font, fill=CREAM)
-    draw.text((84, 222 + line_h), TITLE_LINES[1], font=title_font, fill=CREAM)
+    for index, line in enumerate(TITLE_LINES):
+        draw.text((84, 222 + index * line_h), line, font=title_font, fill=CREAM)
 
-    subtitle_y = 222 + 2 * line_h + 18
+    subtitle_y = 222 + count * line_h + 18
     draw.text((84, subtitle_y), FIGURE, font=font("georgiai.ttf", 38), fill=GOLD)
     rule_y = subtitle_y + 70
     draw.rectangle([84, rule_y, 424, rule_y + 2], fill=GOLD)
@@ -215,12 +217,14 @@ def build_title_promo():
     tracked(draw, "PREACH THE FORGOTTEN", font("candara.ttf", 10.5), 3, MUTED, (64, 68))
     tracked(draw, "A SERMON FOR THE PULPIT", font("candarab.ttf", 11), 4, GOLD, (64, 138))
 
-    size, title_font = fit(draw, TITLE_LINES, "georgia.ttf", 600, 76, 58)
+    count = len(TITLE_LINES)
+    start, minimum = (76, 58) if count <= 2 else (70, 52)
+    size, title_font = fit(draw, TITLE_LINES, "georgia.ttf", 600, start, minimum)
     line_h = int(round(size * 1.1))
-    draw.text((64, 174), TITLE_LINES[0], font=title_font, fill=CREAM)
-    draw.text((64, 174 + line_h), TITLE_LINES[1], font=title_font, fill=CREAM)
+    for index, line in enumerate(TITLE_LINES):
+        draw.text((64, 174 + index * line_h), line, font=title_font, fill=CREAM)
 
-    subtitle_y = 174 + 2 * line_h + 12
+    subtitle_y = 174 + count * line_h + 12
     draw.text((64, subtitle_y), FIGURE, font=font("georgiai.ttf", 29), fill=GOLD)
     rule_y = subtitle_y + 52
     draw.rectangle([64, rule_y, 334, rule_y + 2], fill=GOLD)
@@ -288,12 +292,15 @@ def build_square():
         "center",
     )
 
-    size, title_font = fit(draw, TITLE_LINES, "georgia.ttf", 940, 66, 52)
+    count = len(TITLE_LINES)
+    start, minimum = (66, 52) if count <= 2 else (58, 46)
+    size, title_font = fit(draw, TITLE_LINES, "georgia.ttf", 940, start, minimum)
     line_h = int(round(size * 1.1))
-    draw.text((width / 2, 704), TITLE_LINES[0], font=title_font, fill=CREAM, anchor="ma")
-    draw.text((width / 2, 704 + line_h), TITLE_LINES[1], font=title_font, fill=CREAM, anchor="ma")
+    title_y = 704 if count <= 2 else 686
+    for index, line in enumerate(TITLE_LINES):
+        draw.text((width / 2, title_y + index * line_h), line, font=title_font, fill=CREAM, anchor="ma")
 
-    subtitle_y = 704 + 2 * line_h + 12
+    subtitle_y = title_y + count * line_h + 12
     draw.text((width / 2, subtitle_y), FIGURE, font=font("georgiai.ttf", 26), fill=GOLD, anchor="ma")
     rule_y = subtitle_y + 46
     draw.rectangle([width / 2 - 48, rule_y, width / 2 + 48, rule_y + 2], fill=GOLD)

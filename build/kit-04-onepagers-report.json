@@ -1,0 +1,54 @@
+{
+  "outline": {
+    "file": "C:\\Users\\NDUYU\\Documents\\Qoder\\2026-10-18\\59c534e6\\Preach-the-Forgotten-Sermon-Kit-4-One-Page-Outline.pdf",
+    "html": "C:\\Users\\NDUYU\\Documents\\Qoder\\2026-10-18\\59c534e6\\Preach-the-Forgotten-Sermon-Kit-4-One-Page-Outline.html",
+    "delivery": "C:\\Users\\NDUYU\\Documents\\Qoder\\2026-10-18\\59c534e6\\delivery\\Preach-the-Forgotten-Sermon-Kit-4-One-Page-Outline.pdf",
+    "pages": 1,
+    "page_size": [
+      612,
+      792
+    ],
+    "words": 790,
+    "fonts": [
+      "AAAAAA+Candara-Bold",
+      "BAAAAA+Candara",
+      "CAAAAA+Georgia",
+      "DAAAAA+Georgia-Italic",
+      "EAAAAA+SegoeUI",
+      "FAAAAA+Candara-Italic"
+    ],
+    "max_text_y": 763.7,
+    "text_bounds_x": [
+      36.0,
+      575.5
+    ],
+    "preview": "C:\\Users\\NDUYU\\Documents\\Qoder\\2026-10-18\\59c534e6\\build\\qa\\kit-04-outline.png",
+    "pdf_kb": 100.0,
+    "status": "passed"
+  },
+  "guide": {
+    "file": "C:\\Users\\NDUYU\\Documents\\Qoder\\2026-10-18\\59c534e6\\Preach-the-Forgotten-Sermon-Kit-4-Small-Group-Guide.pdf",
+    "html": "C:\\Users\\NDUYU\\Documents\\Qoder\\2026-10-18\\59c534e6\\Preach-the-Forgotten-Sermon-Kit-4-Small-Group-Guide.html",
+    "delivery": "C:\\Users\\NDUYU\\Documents\\Qoder\\2026-10-18\\59c534e6\\delivery\\Preach-the-Forgotten-Sermon-Kit-4-Small-Group-Guide.pdf",
+    "pages": 1,
+    "page_size": [
+      612,
+      792
+    ],
+    "words": 728,
+    "fonts": [
+      "AAAAAA+Candara-Bold",
+      "BAAAAA+Candara",
+      "CAAAAA+Georgia",
+      "DAAAAA+Georgia-Italic"
+    ],
+    "max_text_y": 763.7,
+    "text_bounds_x": [
+      36.0,
+      575.5
+    ],
+    "preview": "C:\\Users\\NDUYU\\Documents\\Qoder\\2026-10-18\\59c534e6\\build\\qa\\kit-04-guide.png",
+    "pdf_kb": 73.4,
+    "status": "passed"
+  }
+}

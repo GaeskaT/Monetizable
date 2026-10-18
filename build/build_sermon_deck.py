@@ -180,7 +180,7 @@ def slide_title(prs, spec):
         7.4,
         2.81,
         [
-            {"line": 0.94, "runs": [(line, "Georgia", 72, CREAM)]}
+            {"line": 0.94, "runs": [(line, "Georgia", spec.get("title_size", 72), CREAM)]}
             for line in lines
         ],
     )
