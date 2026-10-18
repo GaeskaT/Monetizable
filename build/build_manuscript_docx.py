@@ -492,10 +492,20 @@ def heading(doc, text, level):
     return p
 
 
+def add_markup_runs(paragraph, text, name, size, color):
+    for part in re.split(r"(\*\*.+?\*\*)", text):
+        if not part:
+            continue
+        if len(part) > 4 and part.startswith("**") and part.endswith("**"):
+            add_run(paragraph, part[2:-2], name, size, color, bold=True)
+        else:
+            add_run(paragraph, part, name, size, color)
+
+
 def body(doc, text):
     p = doc.add_paragraph()
     format_paragraph(p, before=0, after=7, line=1.32)
-    add_run(p, smarten_paragraph(text), "Candara", 11.5, INK)
+    add_markup_runs(p, smarten_paragraph(text), "Candara", 11.5, INK)
     return p
 
 
@@ -504,7 +514,7 @@ def bullet(doc, text):
     format_paragraph(p, before=0, after=3, line=1.25)
     p.paragraph_format.left_indent = Inches(0.28)
     p.paragraph_format.first_line_indent = Inches(-0.18)
-    add_run(p, smarten_paragraph(text), "Candara", 10.5, INK)
+    add_markup_runs(p, smarten_paragraph(text), "Candara", 10.5, INK)
     return p
 
 

@@ -1,0 +1,170 @@
+{
+  "folder": "Preach-the-Forgotten-Sermon-Kit-8-Ezekiel",
+  "zip_root": "C:\\Users\\NDUYU\\Documents\\Qoder\\2026-10-18\\59c534e6\\Preach-the-Forgotten-Sermon-Kit-8-Ezekiel.zip",
+  "zip_delivery": "C:\\Users\\NDUYU\\Documents\\Qoder\\2026-10-18\\59c534e6\\delivery\\Preach-the-Forgotten-Sermon-Kit-8-Ezekiel.zip",
+  "zip_bytes": 4233384,
+  "zip_kb": 4134.2,
+  "zip_sha256": "c99ff549536f4fb20e4c8ace4b47004f0e47bc75c22d652b3223ac3437fff23e",
+  "file_count": 19,
+  "entries": 20,
+  "files": {
+    "00-START-HERE.pdf": {
+      "bytes": 98986,
+      "sha256": "57668bc4e287b4a5b0d7aa5ded3b8e65e091fdf5c7e9fec02e3c1a729a36ad59",
+      "pages": 1,
+      "page_size": [
+        612,
+        792
+      ]
+    },
+    "01-Preaching-Manuscript.pdf": {
+      "bytes": 651701,
+      "sha256": "64231a15e0defc7bc5e862bba8c020dee119c4a42f5b433969efccaf2e26c427",
+      "pages": 22,
+      "page_size": [
+        612,
+        792
+      ]
+    },
+    "01-Preaching-Manuscript.docx": {
+      "bytes": 56478,
+      "sha256": "8f4f7d6e593613b66658cc4d150f6480edab605e23fee43c0e55bed9532f25bc",
+      "paragraphs": 289
+    },
+    "02-One-Page-Outline.pdf": {
+      "bytes": 99125,
+      "sha256": "5c9e0e7b6319af6b5e46e3cc2fc69c87dd8fb450528d67548988240c7fc70245",
+      "pages": 1,
+      "page_size": [
+        612,
+        792
+      ]
+    },
+    "03-Small-Group-Guide.pdf": {
+      "bytes": 79418,
+      "sha256": "b7ab39d16c40738b5f224c88a18cce9d7c719e4eefd850a9ed7fb5c64aa22b3a",
+      "pages": 1,
+      "page_size": [
+        612,
+        792
+      ]
+    },
+    "04-Slides-The-Valley-Breathes.pptx": {
+      "bytes": 1641193,
+      "sha256": "c56b3813e9ab57f63a8c6ffb871988890c30b436c7f17350348f76dcb5757076",
+      "slides": 12,
+      "slide_size_px": [
+        1280,
+        720
+      ]
+    },
+    "06-Preaching-License.pdf": {
+      "bytes": 95401,
+      "sha256": "a1b0ecfb64f5789f8cbd08034fa58b5aa41c07702dfd7c901c564b685bc35c20",
+      "pages": 1,
+      "page_size": [
+        612,
+        792
+      ]
+    },
+    "slide-01.png": {
+      "bytes": 951797,
+      "size_px": [
+        1280,
+        720
+      ]
+    },
+    "slide-02.png": {
+      "bytes": 17832,
+      "size_px": [
+        1280,
+        720
+      ]
+    },
+    "slide-03.png": {
+      "bytes": 19655,
+      "size_px": [
+        1280,
+        720
+      ]
+    },
+    "slide-04.png": {
+      "bytes": 17551,
+      "size_px": [
+        1280,
+        720
+      ]
+    },
+    "slide-05.png": {
+      "bytes": 38277,
+      "size_px": [
+        1280,
+        720
+      ]
+    },
+    "slide-06.png": {
+      "bytes": 37362,
+      "size_px": [
+        1280,
+        720
+      ]
+    },
+    "slide-07.png": {
+      "bytes": 13360,
+      "size_px": [
+        1280,
+        720
+      ]
+    },
+    "slide-08.png": {
+      "bytes": 15395,
+      "size_px": [
+        1280,
+        720
+      ]
+    },
+    "slide-09.png": {
+      "bytes": 26530,
+      "size_px": [
+        1280,
+        720
+      ]
+    },
+    "slide-10.png": {
+      "bytes": 23615,
+      "size_px": [
+        1280,
+        720
+      ]
+    },
+    "slide-11.png": {
+      "bytes": 11407,
+      "size_px": [
+        1280,
+        720
+      ]
+    },
+    "slide-12.png": {
+      "bytes": 505170,
+      "size_px": [
+        1280,
+        720
+      ]
+    }
+  },
+  "checks": {
+    "crc": true,
+    "entry_order": true,
+    "folder_structure": true,
+    "file_count": true,
+    "pdf_pages_and_size": true,
+    "pdf_text": true,
+    "docx_readable": true,
+    "pptx_12_slides": true,
+    "png_1280x720": true,
+    "no_placeholders": true,
+    "no_replacement_chars": true,
+    "root_delivery_match": true
+  },
+  "status": "passed"
+}
