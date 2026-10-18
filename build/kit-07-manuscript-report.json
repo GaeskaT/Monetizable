@@ -1,0 +1,34 @@
+{
+  "docx": "C:\\Users\\NDUYU\\Documents\\Qoder\\2026-10-18\\59c534e6\\Preach-the-Forgotten-Sermon-Kit-7-Preaching-Manuscript.docx",
+  "pdf": "C:\\Users\\NDUYU\\Documents\\Qoder\\2026-10-18\\59c534e6\\Preach-the-Forgotten-Sermon-Kit-7-Preaching-Manuscript.pdf",
+  "delivery_pdf": "C:\\Users\\NDUYU\\Documents\\Qoder\\2026-10-18\\59c534e6\\delivery\\Preach-the-Forgotten-Sermon-Kit-7-Preaching-Manuscript.pdf",
+  "delivery_docx": "C:\\Users\\NDUYU\\Documents\\Qoder\\2026-10-18\\59c534e6\\delivery\\Preach-the-Forgotten-Sermon-Kit-7-Preaching-Manuscript.docx",
+  "h2": 11,
+  "h3": 4,
+  "words": 8339,
+  "docx_kb": 53.3,
+  "pages": 18,
+  "fonts": [
+    "ABCDEE+Calibri",
+    "ABCDEE+Calibri,Bold",
+    "ABCDEE+Candara",
+    "ABCDEE+Candara,Bold",
+    "ABCDEE+Candara,Italic",
+    "ABCDEE+Georgia",
+    "ABCDEE+Georgia,Bold",
+    "ABCDEE+Georgia,Italic"
+  ],
+  "text_bounds_x": [
+    75.6,
+    542.6
+  ],
+  "max_text_y": 757.5,
+  "pdf_kb": 617.0,
+  "word_pages": 18,
+  "previews": {
+    "manuscript-title": "C:\\Users\\NDUYU\\Documents\\Qoder\\2026-10-18\\59c534e6\\build\\qa\\manuscript-title.png",
+    "manuscript-body": "C:\\Users\\NDUYU\\Documents\\Qoder\\2026-10-18\\59c534e6\\build\\qa\\manuscript-body.png",
+    "manuscript-close": "C:\\Users\\NDUYU\\Documents\\Qoder\\2026-10-18\\59c534e6\\build\\qa\\manuscript-close.png"
+  },
+  "status": "passed"
+}

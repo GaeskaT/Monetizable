@@ -1,0 +1,170 @@
+{
+  "folder": "Preach-the-Forgotten-Sermon-Kit-7-Huldah",
+  "zip_root": "C:\\Users\\NDUYU\\Documents\\Qoder\\2026-10-18\\59c534e6\\Preach-the-Forgotten-Sermon-Kit-7-Huldah.zip",
+  "zip_delivery": "C:\\Users\\NDUYU\\Documents\\Qoder\\2026-10-18\\59c534e6\\delivery\\Preach-the-Forgotten-Sermon-Kit-7-Huldah.zip",
+  "zip_bytes": 4447066,
+  "zip_kb": 4342.8,
+  "zip_sha256": "d69697ecef87e79a7a0fedf5b4ffa1035b1075980bdb0ddbcd3873d0f3068875",
+  "file_count": 19,
+  "entries": 20,
+  "files": {
+    "00-START-HERE.pdf": {
+      "bytes": 98910,
+      "sha256": "3b9767cf3357f8762ba15478814fb416252e33568f1f93ffa12bb5b60f1dcaf7",
+      "pages": 1,
+      "page_size": [
+        612,
+        792
+      ]
+    },
+    "01-Preaching-Manuscript.pdf": {
+      "bytes": 631850,
+      "sha256": "6621ba6a8f74beae8c4928b54d414d441bb1792b19a10c66e964a5186d072bfa",
+      "pages": 18,
+      "page_size": [
+        612,
+        792
+      ]
+    },
+    "01-Preaching-Manuscript.docx": {
+      "bytes": 54533,
+      "sha256": "26b7eb54edd1a4ca67b69016cd41d27023ce3d1385b245d8fe9ca7ff01c5b5b0",
+      "paragraphs": 156
+    },
+    "02-One-Page-Outline.pdf": {
+      "bytes": 102072,
+      "sha256": "f7ca983206afe14b5703fe5d0ca17ec39bd68198ea3d3c6dbc50ca33d7423409",
+      "pages": 1,
+      "page_size": [
+        612,
+        792
+      ]
+    },
+    "03-Small-Group-Guide.pdf": {
+      "bytes": 73948,
+      "sha256": "83992b86f3a9155a2fa4831202333ff2f4f2e8b7cddba9522a922b327c92d785",
+      "pages": 1,
+      "page_size": [
+        612,
+        792
+      ]
+    },
+    "04-Slides-The-Book-in-the-Rubble.pptx": {
+      "bytes": 1829399,
+      "sha256": "8be94719b19e8e6ea68a0d6123c486926e39c39587aa75a344f50a5c25f8dda9",
+      "slides": 12,
+      "slide_size_px": [
+        1280,
+        720
+      ]
+    },
+    "06-Preaching-License.pdf": {
+      "bytes": 94626,
+      "sha256": "49ca36f4310ec178f237c3b69977014cfed48753826699db981c7158783876f0",
+      "pages": 1,
+      "page_size": [
+        612,
+        792
+      ]
+    },
+    "slide-01.png": {
+      "bytes": 933909,
+      "size_px": [
+        1280,
+        720
+      ]
+    },
+    "slide-02.png": {
+      "bytes": 14291,
+      "size_px": [
+        1280,
+        720
+      ]
+    },
+    "slide-03.png": {
+      "bytes": 21602,
+      "size_px": [
+        1280,
+        720
+      ]
+    },
+    "slide-04.png": {
+      "bytes": 21701,
+      "size_px": [
+        1280,
+        720
+      ]
+    },
+    "slide-05.png": {
+      "bytes": 34169,
+      "size_px": [
+        1280,
+        720
+      ]
+    },
+    "slide-06.png": {
+      "bytes": 35549,
+      "size_px": [
+        1280,
+        720
+      ]
+    },
+    "slide-07.png": {
+      "bytes": 15741,
+      "size_px": [
+        1280,
+        720
+      ]
+    },
+    "slide-08.png": {
+      "bytes": 27136,
+      "size_px": [
+        1280,
+        720
+      ]
+    },
+    "slide-09.png": {
+      "bytes": 26025,
+      "size_px": [
+        1280,
+        720
+      ]
+    },
+    "slide-10.png": {
+      "bytes": 23842,
+      "size_px": [
+        1280,
+        720
+      ]
+    },
+    "slide-11.png": {
+      "bytes": 12645,
+      "size_px": [
+        1280,
+        720
+      ]
+    },
+    "slide-12.png": {
+      "bytes": 559266,
+      "size_px": [
+        1280,
+        720
+      ]
+    }
+  },
+  "checks": {
+    "crc": true,
+    "entry_order": true,
+    "folder_structure": true,
+    "file_count": true,
+    "pdf_pages_and_size": true,
+    "pdf_text": true,
+    "docx_readable": true,
+    "pptx_12_slides": true,
+    "png_1280x720": true,
+    "no_placeholders": true,
+    "no_replacement_chars": true,
+    "root_delivery_match": true
+  },
+  "status": "passed"
+}

@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Book in the Rubble — One-page preaching outline</title>
+<style>
+@page {
+  size: Letter;
+  margin: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: #ffffff;
+}
+
+body {
+  font-family: Candara, "Segoe UI", sans-serif;
+  color: #2b2721;
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
+}
+
+.page {
+  width: 8.5in;
+  min-height: 11in;
+  padding: 0.38in 0.5in 0.4in;
+  display: flex;
+  flex-direction: column;
+}
+
+/* ---------- Masthead ---------- */
+
+.masthead {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 18pt;
+  padding-bottom: 4pt;
+  border-bottom: 0.7pt solid #c8a15e;
+}
+
+.brand {
+  font-size: 7.2pt;
+  font-weight: bold;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: #8a6a2f;
+}
+
+.series {
+  font-size: 6.7pt;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #1b2a44;
+  text-align: right;
+}
+
+/* ---------- Heading ---------- */
+
+.heading {
+  margin-top: 9pt;
+}
+
+.kicker {
+  margin: 0 0 3pt;
+  font-size: 6.8pt;
+  font-weight: bold;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: #8a6a2f;
+}
+
+h1 {
+  margin: 0;
+  font-family: Georgia, serif;
+  font-size: 22pt;
+  font-weight: normal;
+  line-height: 1.05;
+  letter-spacing: -0.005em;
+  color: #1b2a44;
+}
+
+.subtitle {
+  margin: 2.5pt 0 0;
+  font-family: Georgia, serif;
+  font-size: 9.8pt;
+  font-style: italic;
+  line-height: 1.25;
+  color: #6a5836;
+}
+
+/* ---------- Meta ---------- */
+
+.meta {
+  margin-top: 7pt;
+  padding: 6pt 9pt;
+  background: #faf6ec;
+  border-left: 2.4pt solid #c8a15e;
+}
+
+.meta p {
+  margin: 0 0 2.5pt;
+  font-size: 8pt;
+  line-height: 1.38;
+  color: #4f483d;
+}
+
+.meta p:last-child {
+  margin-bottom: 0;
+}
+
+.meta strong {
+  font-weight: bold;
+  color: #1b2a44;
+}
+
+/* ---------- Body ---------- */
+
+main.content {
+  margin-top: 7pt;
+}
+
+h2 {
+  margin: 8pt 0 3.5pt;
+  padding-bottom: 2pt;
+  border-bottom: 0.5pt solid #d9c9a8;
+  font-family: Candara, "Segoe UI", sans-serif;
+  font-size: 7.3pt;
+  font-weight: bold;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #1b2a44;
+}
+
+main.content > h2:first-child {
+  margin-top: 0;
+}
+
+p {
+  margin: 0 0 4pt;
+  font-size: 8.7pt;
+  line-height: 1.37;
+}
+
+main.content > p:last-child {
+  margin-bottom: 0;
+}
+
+ul,
+ol {
+  margin: 2pt 0 5pt;
+  padding-left: 14pt;
+}
+
+li {
+  margin: 0 0 2.4pt;
+  font-size: 8.7pt;
+  line-height: 1.34;
+}
+
+li:last-child {
+  margin-bottom: 0;
+}
+
+li strong {
+  color: #1b2a44;
+}
+
+strong {
+  font-weight: bold;
+}
+
+em {
+  font-style: italic;
+}
+
+/* ---------- Outline table ---------- */
+
+table {
+  width: 100%;
+  margin: 2pt 0 4pt;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+
+thead th {
+  padding: 2pt 5pt 2.5pt 0;
+  border-bottom: 0.6pt solid #c8a15e;
+  font-size: 6.5pt;
+  font-weight: bold;
+  letter-spacing: 0.12em;
+  text-align: left;
+  text-transform: uppercase;
+  color: #1b2a44;
+}
+
+tbody td {
+  padding: 3pt 5pt 3pt 0;
+  border-bottom: 0.4pt solid #e6dcc8;
+  font-size: 7.95pt;
+  line-height: 1.3;
+  vertical-align: top;
+  color: #3a342b;
+}
+
+tbody td:first-child {
+  font-weight: bold;
+  color: #8a6a2f;
+}
+
+tbody tr:last-child td {
+  border-bottom: none;
+}
+
+/* ---------- Footer ---------- */
+
+.footer {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 18pt;
+  margin-top: auto;
+  padding-top: 4pt;
+  border-top: 0.5pt solid #d9c9a8;
+  font-size: 6.5pt;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #8a6a2f;
+}
+
+.footer .navy {
+  color: #1b2a44;
+  text-align: right;
+}
+
+</style>
+</head>
+<body>
+<div class="page">
+  <header class="masthead">
+    <span class="brand">Silenced Saints</span>
+    <span class="series">PREACH THE FORGOTTEN · SERMON KIT 7</span>
+  </header>
+
+  <section class="heading">
+    <p class="kicker">One-page preaching outline</p>
+    <h1>The Book in the Rubble</h1>
+    <p class="subtitle">Huldah · 2 Kings 22:14–20</p>
+  </section>
+
+  <div class="meta">
+<p><strong>Primary text:</strong> 2 Kings 22:14–20
+<strong>Also read:</strong> 2 Kings 22:1–23:30 · 2 Chronicles 34:1–33 · Deuteronomy 28–29 · Jeremiah 31:31–34 · Galatians 3:10–14
+<strong>Big idea:</strong> The word of God found in the rubble wounds the proud, hears the humble, and points to the King who took its curse: Huldah spoke the word, Josiah reformed the nation, and Jesus bore the judgment.
+<strong>Time:</strong> 55–60 minutes, including a 3–5 minute response (6,858 words at about 120 wpm).
+<strong>Aim:</strong> From reading without hearing to letting the Word wound and reform us; from trusting our clean-up to trusting the King who took the curse.</p>
+  </div>
+
+  <main class="content">
+<h2>Movement map</h2>
+<table><colgroup><col style="width:0.42in"><col style="width:1.38in"><col style="width:5.6in"></colgroup>
+<thead>
+<tr>
+<th>Min</th>
+<th>Section</th>
+<th>Beats and transition</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>5</td>
+<td><strong>Introduction: The book in the rubble</strong></td>
+<td>622 BC. Manasseh’s wreckage; Josiah, eight, does right; the temple is repaired; Hilkiah finds the Book of the Law; Shaphan reads it; the king tears his clothes. The book was in the house; the word was not in the heart. → <em>“Read it.”</em></td>
+</tr>
+<tr>
+<td>7</td>
+<td><strong>The king who tore his clothes</strong></td>
+<td>Manasseh’s idols and the temple’s decay. The reform begins before the find; the word meets him in ordinary work. The covenant curses (Deut 28:15). “For me, and for the people, and for all Judah” (22:13). He believes the book enough to be afraid. → <em>“Who can tell us what God is saying?”</em></td>
+</tr>
+<tr>
+<td>8</td>
+<td><strong>The woman in the Second Quarter</strong></td>
+<td>Five officials—high priest, secretary, king’s servant, two more—go to Huldah (22:14). Prophetess; wife of Shallum, keeper of the wardrobe; the Mishneh. “Thus says the LORD… Tell the man who sent you” (22:15). God is not bound to expected channels. The messenger is tested by the message. → <em>“She speaks.”</em></td>
+</tr>
+<tr>
+<td>8</td>
+<td><strong>The word she spoke</strong></td>
+<td>Judgment on “this place,” grounded in the book (22:16–17); the temple is no talisman (Jer 7:4). Then mercy because “your heart was tender” (22:19). <em>Rakh</em>: soft, woundable. “A grave in peace” — Josiah dies at Megiddo (23:29–30) but is buried before the fall. → <em>“Certain judgment; personal mercy.”</em></td>
+</tr>
+<tr>
+<td>7</td>
+<td><strong>The reform that could not save</strong></td>
+<td>Covenant (23:1–3), purge (23:4–20), Passover (23:21–23). “No king like him” (23:25). Yet the wrath is not turned away (23:26–27). The law cannot atone; the heart is the problem (Gal 3:10–13). New covenant, new heart (Jer 31:33; Ezek 36:26–27). → <em>“The best reform cannot save.”</em></td>
+</tr>
+<tr>
+<td>8</td>
+<td><strong>The King who took the curse</strong></td>
+<td>Jesus the true King: reads the book (Luke 4:21), cleanses the temple (John 2:19), becomes the Passover (1 Cor 5:7), is the Prophet like Moses (Deut 18:15; Acts 3:22). He takes the curse (Gal 3:13; 2 Cor 5:21). No condemnation (Rom 8:1); the Spirit writes the law within (Rom 8:3–4). → <em>“Come to the King.”</em></td>
+</tr>
+<tr>
+<td>6</td>
+<td><strong>Application: What do you do with a book that finds you?</strong></td>
+<td>Let the Word wound you before it comforts you. Bring your fear to the place where God speaks. Do not despise the messenger. Do not stop at mourning; do the reform — but trust the King, not the reform. → <em>“Grace, then obedience.”</em></td>
+</tr>
+<tr>
+<td>3</td>
+<td><strong>The invitation</strong></td>
+<td>Three people: the one who reads without hearing; the one hiding from the book; the one who has mourned but never come to the King. → <em>“His name is Jesus. He saves.”</em></td>
+</tr>
+<tr>
+<td>5</td>
+<td><strong>Response and closing</strong></td>
+<td>Silence. Three questions: what have you avoided, whose voice have you dismissed, what reform is asked? One act this week. Care note for victims (Ps 34:18). Prayer. The book found Josiah; the King finds us. → <em>“Go and live under the book.”</em></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Total:</strong> 57 minutes; 55–60 with normal variation.</p>
+<h2>Lines to land</h2>
+<ul>
+<li>“The book was in the house of God; the word was not in the heart of the people.”</li>
+<li>“Your heart was tender.”</li>
+<li>“The judgment is certain; the mercy is personal.”</li>
+<li>“The best reform in Judah’s history could not turn away the wrath.”</li>
+<li>“The book found Josiah. The King finds us.”</li>
+</ul>
+<h2>Guardrails</h2>
+<ul>
+<li>Do not invent the discovery scene or Huldah’s biography; the text gives the delegation, names, Second Quarter, and oracle.</li>
+<li>Say “widely identified with Deuteronomy or a core,” not “we know what the scroll was.”</li>
+<li>Do not turn “a grave in peace” into prosperity; Josiah died in battle at Megiddo.</li>
+<li>Note Huldah’s significance without a slogan; label rabbinic traditions as later.</li>
+<li>The gospel must be explicit: the cross, the resurrection, and the new heart. Do not end on “read your Bible more.”</li>
+</ul>
+<h2>If you must cut</h2>
+<ul>
+<li><strong>To 50 minutes:</strong> trim 7 minutes; keep 22:19–20, the tender heart, Megiddo, 23:26–27, Galatians 3:13, and the empty tomb.</li>
+</ul>
+  </main>
+
+  <footer class="footer">
+    <span>Preach the Forgotten · Sermon Kit 7</span>
+    <span class="navy">One-page outline · Huldah</span>
+  </footer>
+</div>
+</body>
+</html>

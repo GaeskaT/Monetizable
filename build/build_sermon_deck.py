@@ -457,7 +457,7 @@ def slide_objection(prs, spec, number):
             slide,
             x + 0.29,
             4.56,
-            3.12,
+            5.08,
             1.27,
             [{"runs": [(box["big"], "Georgia", 66, INK)]}],
         )
