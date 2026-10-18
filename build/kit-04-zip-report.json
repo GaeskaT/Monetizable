@@ -2,9 +2,9 @@
   "folder": "Preach-the-Forgotten-Sermon-Kit-4-Samson",
   "zip_root": "C:\\Users\\NDUYU\\Documents\\Qoder\\2026-10-18\\59c534e6\\Preach-the-Forgotten-Sermon-Kit-4-Samson.zip",
   "zip_delivery": "C:\\Users\\NDUYU\\Documents\\Qoder\\2026-10-18\\59c534e6\\delivery\\Preach-the-Forgotten-Sermon-Kit-4-Samson.zip",
-  "zip_bytes": 4021910,
+  "zip_bytes": 4021856,
   "zip_kb": 3927.6,
-  "zip_sha256": "ededc506f185e0235f8856a5577381576225f4f7a9f49e21d42bd784aa7ba935",
+  "zip_sha256": "864aa29263bd34c3e4f6077d54c70a2e85308a58f8313ef4dd88d63dbf042fee",
   "file_count": 19,
   "entries": 20,
   "files": {
@@ -50,8 +50,8 @@
       ]
     },
     "04-Slides-The-Man-Who-Pulled-Down-the-House.pptx": {
-      "bytes": 1604980,
-      "sha256": "7575197dd7f9c51d198cb2464747571324dbd9671e3d64d428747ecfc39053f3",
+      "bytes": 1604975,
+      "sha256": "9fb4e07324a4c8c2824b879e156d75a3ea5cf7f0ca3bcfe83b94c27477168a48",
       "slides": 12,
       "slide_size_px": [
         1280,
@@ -117,7 +117,7 @@
       ]
     },
     "slide-08.png": {
-      "bytes": 18004,
+      "bytes": 17689,
       "size_px": [
         1280,
         720
