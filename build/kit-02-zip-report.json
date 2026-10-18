@@ -2,9 +2,9 @@
   "folder": "Preach-the-Forgotten-Sermon-Kit-2-The-Man-Born-Blind",
   "zip_root": "C:\\Users\\NDUYU\\Documents\\Qoder\\2026-10-18\\59c534e6\\Preach-the-Forgotten-Sermon-Kit-2-The-Man-Born-Blind.zip",
   "zip_delivery": "C:\\Users\\NDUYU\\Documents\\Qoder\\2026-10-18\\59c534e6\\delivery\\Preach-the-Forgotten-Sermon-Kit-2-The-Man-Born-Blind.zip",
-  "zip_bytes": 4800396,
+  "zip_bytes": 4800401,
   "zip_kb": 4687.9,
-  "zip_sha256": "49ac4d6a136f72fc1bd65695ecb3741e9d88c648c02845d360eee6b6ecd614be",
+  "zip_sha256": "7a2f4bdd772a5c7dd96534571cd675fee1265434198f453b5995d02ecbace3df",
   "file_count": 19,
   "entries": 20,
   "files": {
@@ -50,8 +50,8 @@
       ]
     },
     "04-Slides-The-Man-Who-Never-Asked.pptx": {
-      "bytes": 1951511,
-      "sha256": "2da133015cc91e69404c91f0bd86873af56cc25458a188600e2efc7968866779",
+      "bytes": 1951506,
+      "sha256": "193ee74cea105e061cff51e20ca0a494aa0ec65cb7ded4d8d87f97dc84588db1",
       "slides": 12,
       "slide_size_px": [
         1280,
@@ -117,7 +117,7 @@
       ]
     },
     "slide-08.png": {
-      "bytes": 28845,
+      "bytes": 28527,
       "size_px": [
         1280,
         720

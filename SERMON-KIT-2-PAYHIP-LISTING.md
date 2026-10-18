@@ -12,6 +12,7 @@
 | Visibility | Invisible / hidden until Sermon Kit 1 clears its gate |
 | Cover | `assets/listing/Sermon-Kit-2-Cover.png` (1600×900) |
 | Download file | `Preach-the-Forgotten-Sermon-Kit-2-The-Man-Born-Blind.zip` (4.7 MB, 19 files) |
+| ZIP SHA-256 | `7a2f4bdd772a5c7dd96534571cd675fee1265434198f453b5995d02ecbace3df` |
 | SKU | PF-SK-002 (not exposed in Payhip's product form) |
 | Product ID | `HEfhy` |
 | Product URL | https://payhip.com/b/HEfhy |
@@ -25,6 +26,7 @@
 - Signed-out request to the product URL with a browser user agent returns **302 → store page**; without one, Payhip's bot filter returns 403. Either way the product page is not served.
 - Signed-out store page lists only `LYWzO`, `QVfqk`, and `bKv7C`; no card or link for `HEfhy`.
 - Checkout was not completed and no payment details were entered.
+- 2026-10-19 deck polish: the gold cross on slide 8 moved to the lower-right corner of the banner so it no longer crosses the verse text. The PPTX, 12 slide PNGs, and ZIP were rebuilt; Payhip now serves the corrected ZIP (`4,800,401` bytes, file ID `VBrndnOLB8`). All other slides are byte-identical.
 
 ## Card copy
 
